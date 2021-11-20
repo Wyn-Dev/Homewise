@@ -22,21 +22,33 @@ function Navigation() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#link">Link</Nav.Link>
-              <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
-                  Another action
+              <Nav.Link href="/home">Home</Nav.Link>
+              <Nav.Link href="/about">About</Nav.Link>
+              <Nav.Link href="/projects">Projects</Nav.Link>
+              <Nav.Link href="/services">Services</Nav.Link>
+              <NavDropdown title="Projects" id="basic-nav-dropdown">
+                <NavDropdown.Item href="/o-1roofdeck">
+                  RoofDeck</NavDropdown.Item>
+                <NavDropdown.Item href="/o-2lakeside">
+                  Lakeside
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
-                  Something
+                <NavDropdown.Item href="/o-3onestep">
+                  One Step Deck
                 </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
-                  Separated link
+                <NavDropdown.Item href="/o-4fencing">
+                  Fencing
+                </NavDropdown.Item>
+                <NavDropdown.Item href="/o-5houseaddition">
+                  House Addition
+                </NavDropdown.Item>
+                <NavDropdown.Item href="/o-6deckblend">
+                  Deck Blend
+                </NavDropdown.Item>
+                <NavDropdown.Item href="/o-7opendeck">
+                  Open Deck
                 </NavDropdown.Item>
               </NavDropdown>
+
             </Nav>
           </Navbar.Collapse>
         </Container>

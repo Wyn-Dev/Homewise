@@ -1,11 +1,11 @@
 import React from 'react'
 
-function deckblend() {
+function onestep() {
     return (
         <div>
-            6-deck blend
+         Project 3   
         </div>
     )
 }
 
-export default deckblend
+export default onestep

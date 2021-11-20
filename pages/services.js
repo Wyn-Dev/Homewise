@@ -1,7 +1,7 @@
 import React from "react"
 
 function services() {
-  return <div>sdf</div>
+  return <div>Services Main Page</div>
 }
 
 export default services

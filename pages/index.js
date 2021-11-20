@@ -20,10 +20,9 @@ export default function Home() {
           width={1920}
           alt="your mom"
         />
-
-        <div className={styles.grid}></div>
+        <div className={styles.grid}>
+        </div>
       </main>
-
     </div>
   )
 }
