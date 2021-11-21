@@ -1,11 +1,27 @@
 import React from "react"
 import ProjectsContainer from "../components/Containers/ProjectsContainers"
+import { Image } from "react-bootstrap"
 
 function deckblend() {
   return (
     <div>
       <ProjectsContainer>
-        This is the content for each Page that should show up
+        <div>
+          <Image src='/images/t/ph.PNG' alt='image' height={300} width={450} />
+        </div>
+        <h2>Deck Blend</h2>
+        <p>
+          You love the space in your backyard but want to do a little more with
+          it. You enjoy all the space you have. ​ This home had an existing deck
+          and it played a significant part of the family&apos;s day-to-day life.
+          The idea was to rebuild what they had and make it new again. With that
+          in mind, we made took the time to understand what worked and what
+          could be improved upon. As with all of our deck projects, we use
+          southern yellow pine for the joists, beams, and pillars. Composite
+          wood was used for the decking material. Aluminum railing added a
+          modern touch that brings it all together to make the deck blend in
+          well with the rest of the house.{" "}
+        </p>
       </ProjectsContainer>
     </div>
   )

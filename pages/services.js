@@ -27,14 +27,14 @@ function services() {
         </p>
       </div>
       <div>
-        <h3>Kitchen Remodeling</h3>
+        <h3>\ Kitchen Remodeling</h3>
         <p>
           We know kitchens are like the unofficial family room of the home. Make
           into a more functional space for your growing needs.
         </p>
       </div>
       <div>
-        <h3>Odds and Ends</h3>
+        <h3>\ Odds and Ends</h3>
         <p>
           If your house needs something done, repair or addition, we can make it
           happen. This is a small list of what we can do, just to give you an

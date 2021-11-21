@@ -1,11 +1,28 @@
 import React from "react"
 import ProjectsContainer from "../components/Containers/ProjectsContainers"
+import { Image } from "react-bootstrap"
 
 function lakeside() {
   return (
     <div>
       <ProjectsContainer>
-        This is the content for each Page that should show up
+        <div>
+          <Image src='/images/t/ph.PNG' alt='image' height={300} width={450} />
+        </div>
+        <h2>Lakeside Deck</h2>
+        <p>
+          An amazing view comes with a home by the lake. When you have a home by
+          a lake, one of the many comforts is enjoying the view. With this
+          project, the client wanted a deck that didn&apos;t obstruct the view
+          of the lake below. The idea was to have the deck blend in with the
+          landscaping of the beautiful backyard. We built this deck with
+          traditional wood from top to bottom. Beams, joists, and posts were
+          built with treated pine wood giving it a durable material that will
+          last The landscape had some great natural curves along the bank
+          leading down to the lake. This deck provides a great view of the lake,
+          blends in with the landscape and the home. You couldn&apos;t imagine
+          this home without seeing it with this deck.
+        </p>
       </ProjectsContainer>
     </div>
   )
