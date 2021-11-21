@@ -1,11 +1,12 @@
+@import url(https://fonts.googleapis.com/css2?family=Oswald);
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  height: 100%;
+  font-family: Oswald, sans-serif;
 }
-
 a {
   color: inherit;
   text-decoration: none;
@@ -13,4 +14,59 @@ a {
 
 * {
   box-sizing: border-box;
+}
+footer {
+  display: flex;
+  flex: 1;
+  padding: 1rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.parallax {
+  background-image: url ("../public/images/t/background-main.jpg");
+  min-height: 800px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card h2 {
+  text-align: center;
+}
+.card p {
+  text-align: center;
+}
+main {
+  background-image: url("/public/images/t/background-main.jpg");
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h3 {
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+}
+
+p {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+li {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
 }

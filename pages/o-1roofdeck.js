@@ -1,11 +1,15 @@
-import React from 'react'
+import React from "react"
+import ProjectsContainer from "../components/Containers/ProjectsContainers"
+import { Breadcrumb } from "react-bootstrap"
 
 function roofdeck() {
-    return (
-        <div>
-         Page 1 - Joel   
-        </div>
-    )
+  return (
+    <div>
+      <ProjectsContainer>
+        This is the content for each Page that should show up
+      </ProjectsContainer>
+    </div>
+  )
 }
 
 export default roofdeck
