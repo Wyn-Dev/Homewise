@@ -59,6 +59,7 @@ function About() {
         </p>
       </div>
       <div>
+        placeholder
         <h2 className='fullname'>Greg Smith</h2>
         <h4>Partner</h4>
         <p>
@@ -69,6 +70,7 @@ function About() {
         </p>
       </div>
       <div>
+        placeholder
         <h2 className='fullname'>Justin Kresin</h2>
         <h4>Construction Tech</h4>
         <p>

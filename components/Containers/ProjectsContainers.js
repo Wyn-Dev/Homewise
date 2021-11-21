@@ -5,9 +5,10 @@ function ProjectsContainer({ children }) {
   return (
     <div>
       <Breadcrumb>
-        <Breadcrumb.Item href='/projects'>Projects</Breadcrumb.Item>
+        <Breadcrumb.Item href='/projects' className='breadcrumb'>
+          \ Back to Projects
+        </Breadcrumb.Item>
       </Breadcrumb>
-
       {children}
     </div>
   )

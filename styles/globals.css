@@ -70,3 +70,7 @@ li {
   justify-content: center;
   align-items: center;
 }
+
+.breadcrumb {
+  font-family: Oswald;
+}
