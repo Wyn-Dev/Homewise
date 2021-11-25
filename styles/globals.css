@@ -32,20 +32,6 @@ a {
   box-sizing: border-box;
 }
 
-footer {
-  display: flex;
-  flex: 1;
-  padding: 1rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  height: 400px;
-  background-color: rgba(45, 45, 48, 0.98);
-}
-
 h3 {
   justify-content: center;
   align-items: center;
@@ -126,16 +112,38 @@ p {
   flex-direction: row;
 }
 
+/* ===========================================Footer Component */
+
+footer {
+  display: flex;
+  flex: 1;
+  padding: 1rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 350px;
+  background-color: rgba(45, 45, 48, 0.98);
+}
+tel {
+  justify-content: center;
+  align-items: center;
+}
+
+/* ===========================================Footer Component */
+
 /* ===========================================Services PAGE */
 
 .services {
-  background-color: rgba(255, 255, 255, 0.99);
+  background-color: rgba(255, 255, 255, 0.95);
   display: grid;
   border: 1px solid red;
 }
 .services h4 {
   text-transform: none;
-  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .services div {
   margin-bottom: 5%;
@@ -149,3 +157,22 @@ p {
 .services p {
   margin-right: 25%;
 }
+.services ul {
+  margin: auto;
+}
+/* ===========================================Services PAGE */
+/* ===========================================Projects PAGE */
+
+.projects {
+  background-color: rgba(255, 255, 255, 0.95);
+  display: grid;
+  gap: 10px;
+}
+.projects h1 {
+  padding: 20px;
+}
+.imageP {
+  border: 2px solid black;
+  margin: 5%;
+}
+/* ===========================================Projects PAGE */
