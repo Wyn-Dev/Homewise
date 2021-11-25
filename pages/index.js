@@ -1,5 +1,7 @@
 import Head from "next/head"
 import StripContainers from "../components/Containers/StripContainers"
+import HomePageProjectContainers from "../components/Containers/HomePageProjectContainers"
+
 function Home() {
   return (
     <div className='maingrid'>
@@ -113,6 +115,7 @@ function Home() {
             </ul>
           </div>
         </StripContainers>
+        <HomePageProjectContainers></HomePageProjectContainers>
       </main>
     </div>
   )

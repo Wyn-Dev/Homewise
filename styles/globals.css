@@ -144,6 +144,7 @@ tel {
   text-transform: none;
   margin-top: 20px;
   margin-bottom: 20px;
+  margin-right: 20px;
 }
 .services div {
   margin-bottom: 5%;
@@ -175,4 +176,9 @@ tel {
   border: 2px solid black;
   margin: 5%;
 }
+
 /* ===========================================Projects PAGE */
+
+.about {
+  background-color: rgba(255, 255, 255, 0.95);
+}
