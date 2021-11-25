@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css2?family=Oswald);
+@import url(http://fonts.cdnfonts.com/css/lulo-clean);
 
 html,
 body {
@@ -6,6 +7,21 @@ body {
   margin: 0;
   height: 100%;
   font-family: Oswald, sans-serif;
+  background-image: url("/images/t/background-main.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.ethic {
+  background-image: url("/images/accent/Accent-1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: none;
+  height: 450px;
+  color: #e6dff5;
 }
 a {
   color: inherit;
@@ -15,6 +31,7 @@ a {
 * {
   box-sizing: border-box;
 }
+
 footer {
   display: flex;
   flex: 1;
@@ -22,36 +39,13 @@ footer {
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
-  position: absolute;
   left: 0;
   bottom: 0;
   right: 0;
+  height: 400px;
+  background-color: rgba(45, 45, 48, 0.98);
 }
 
-.parallax {
-  background-image: url ("../public/images/t/background-main.jpg");
-  min-height: 800px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.card h2 {
-  text-align: center;
-}
-.card p {
-  text-align: center;
-}
-main {
-  background-image: url("/public/images/t/background-main.jpg");
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 h3 {
   justify-content: center;
   align-items: center;
@@ -69,8 +63,89 @@ li {
   list-style-type: none;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .breadcrumb {
   font-family: Oswald;
+}
+
+main {
+  min-height: 100vh;
+  padding: 1rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.maintext {
+  position: absolute;
+  padding-left: 10%;
+  padding-top: 10%;
+  font-family: Lulo Clean One Bold, sans-serif;
+}
+.maintext h1 {
+  color: #ffffff;
+  font-family: Lulo Clean;
+}
+
+.strip {
+  position: relative;
+  width: 100%;
+  min-height: 450px;
+  box-sizing: border-box;
+  background-color: rgba(227, 227, 166, 0.5);
+}
+
+.strip h2,
+p {
+  text-align: center;
+}
+.strip h2 {
+  padding-top: 50px;
+}
+.innertext p {
+  padding-top: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  min-width: 320px;
+  justify-content: center;
+  text-align: center;
+}
+
+.logo {
+  height: 1em;
+  margin-left: 0.5rem;
+}
+
+.maingrid {
+  display: grid;
+  flex-direction: row;
+}
+
+/* ===========================================Services PAGE */
+
+.services {
+  background-color: rgba(255, 255, 255, 0.99);
+  display: grid;
+  border: 1px solid red;
+}
+.services h4 {
+  text-transform: none;
+  margin: 20px;
+}
+.services div {
+  margin-bottom: 5%;
+  border-bottom: 50px;
+  margin-left: 25%;
+}
+
+.services h1 {
+  padding: 20px;
+}
+.services p {
+  margin-right: 25%;
 }

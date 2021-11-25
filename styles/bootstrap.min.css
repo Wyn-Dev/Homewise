@@ -542,17 +542,6 @@ progress {
   max-width: 100%;
   height: auto;
 }
-.figure {
-  display: inline-block;
-}
-.figure-img {
-  margin-bottom: 0.5rem;
-  line-height: 1;
-}
-.figure-caption {
-  font-size: 0.875em;
-  color: #919aa1;
-}
 .container,
 .container-fluid,
 .container-lg,
@@ -10271,30 +10260,7 @@ th {
   font-size: 0.875rem;
   text-transform: none;
 }
-.badge {
-  padding-top: 0.28rem;
-}
-.badge-pill {
-  border-radius: 10rem;
-}
-.badge.bg-light,
-.badge.bg-secondary {
-  color: #343a40;
-}
-.list-group-item .h1,
-.list-group-item .h2,
-.list-group-item .h3,
-.list-group-item .h4,
-.list-group-item .h5,
-.list-group-item .h6,
-.list-group-item h1,
-.list-group-item h2,
-.list-group-item h3,
-.list-group-item h4,
-.list-group-item h5,
-.list-group-item h6 {
-  color: inherit;
-}
+
 .card-header,
 .card-title {
   color: inherit;

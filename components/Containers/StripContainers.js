@@ -1,7 +1,7 @@
 import React from "react"
 
 function StripContainers({ children }) {
-  return <div className='card'>{children}</div>
+  return <div className='strip'>{children}</div>
 }
 
 export default StripContainers

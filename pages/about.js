@@ -37,7 +37,7 @@ function About() {
           Effingham and surrounding towns.
         </p>
       </div>
-      <StripsContainer>
+      <StripsContainer className='ethic'>
         <h2>Our Ethic</h2>
         <p>
           Quality is never an accident; It is always the result of high
