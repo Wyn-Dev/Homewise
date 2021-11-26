@@ -1,5 +1,9 @@
 @import url(https://fonts.googleapis.com/css2?family=Oswald);
-@import url(http://fonts.cdnfonts.com/css/lulo-clean);
+/* @import url(http://fonts.cdnfonts.com/css/lulo-clean); */
+@font-face {
+  font-family: Lulo Clean W01 One Bold;
+  src: url("/public/fonts/Lulo Clean W01 One Bold.ttf");
+}
 
 html,
 body {
@@ -47,12 +51,12 @@ h3 {
 }
 
 p {
-  font-family: Helvetica, sans-serif;
+  font-family: Avenir, sans-serif;
   font-size: 14px;
 }
 
 li {
-  font-family: Helvetica, sans-serif;
+  font-family: Avenir, sans-serif;
   font-size: 14px;
   list-style-type: none;
   justify-content: center;
@@ -83,7 +87,7 @@ main {
 }
 .maintext h1 {
   color: #ffffff;
-  font-family: Lulo Clean;
+  font-family: Lulo Clean One Bold;
 }
 
 .strip {
@@ -195,13 +199,9 @@ tel {
 .about h1 {
   padding: 20px;
 }
-.aboutUp h2 {
-  text-align: right;
-}
+
 .aboutUp p {
   text-align: left;
-}
-.aboutInner {
 }
 
 /* ==============================================About PAGE */

@@ -9,14 +9,13 @@ function About() {
       <Container>
         <div className='aboutInner'>
           <Row>
-            <h1>About Us</h1>
+            <h1>\ About Us</h1>
           </Row>
           <Row>
-            <Col className='aboutUp'>
-              <h2>The History</h2>
-            </Col>
+            <Col className='aboutUp'></Col>
             <Col className='aboutUp'>
               <div>
+                <h2>\ The History</h2>
                 <p>
                   Since 2018, Homewise Construction has built on it&apos;s 40
                   years of combined experience to provide Effingham County with
@@ -40,11 +39,10 @@ function About() {
       </Container>
       <Container>
         <Row>
-          <Col className='aboutUp'>
-            <h2>The Work</h2>
-          </Col>
+          <Col className='aboutUp'></Col>
           <Col className='aboutUp'>
             <div>
+              <h2>\ The Work</h2>
               <p>
                 Construction work is in our blood, we really believe &ldquo;No
                 job too big or to small&ldquo;. We take on just right amount of
@@ -74,7 +72,7 @@ function About() {
         </div>
       </StripsContainer>
       <div>
-        <h1>Our Team</h1>
+        <h1>\ Our Team</h1>
       </div>
       <BioContainer>
         <Container>

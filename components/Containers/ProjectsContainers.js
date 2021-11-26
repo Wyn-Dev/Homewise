@@ -3,7 +3,7 @@ import { Breadcrumb } from "react-bootstrap"
 
 function ProjectsContainer({ children }) {
   return (
-    <div>
+    <div className='projectContainer'>
       <Breadcrumb>
         <Breadcrumb.Item href='/projects' className='breadcrumb'>
           \ Back to Projects

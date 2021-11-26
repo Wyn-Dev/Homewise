@@ -8,8 +8,48 @@ function roofdeck() {
     <div>
       <ProjectsContainer>
         <div>
-          placeholder for images
-          <Image src='/images/t/ph.PNG' alt='image' height={300} width={450} />
+          <Image
+            src='/images/projects/p1/P1-00.jpg'
+            alt='image'
+            height={300}
+            width={450}
+          />
+          <Image
+            src='/images/projects/p1/P1-01.jpg'
+            alt='image'
+            height={300}
+            width={450}
+          />
+          <Image
+            src='/images/projects/p1/P1-02.jpg'
+            alt='image'
+            height={300}
+            width={450}
+          />
+          <Image
+            src='/images/projects/p1/P1-03.jpg'
+            alt='image'
+            height={300}
+            width={450}
+          />
+          <Image
+            src='/images/projects/p1/P1-04.jpg'
+            alt='image'
+            height={300}
+            width={450}
+          />
+          <Image
+            src='/images/projects/p1/P1-05.jpg'
+            alt='image'
+            height={300}
+            width={450}
+          />
+          <Image
+            src='/images/projects/p1/P1-07.jpg'
+            alt='image'
+            height={300}
+            width={450}
+          />
         </div>
         <h2>Deck and Roof</h2>
         <p>
