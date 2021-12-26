@@ -104,7 +104,6 @@ function Home() {
                 Based out of Effingham County, we travel to the following areas:
               </p>
             </div>
-
             <ul>
               <li>Effingham</li>
               <li>Altamont</li>
