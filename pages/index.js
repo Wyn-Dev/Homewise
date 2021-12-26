@@ -11,6 +11,11 @@ function Home() {
           name='description'
           content='Residential construction in Effingham county'
         />
+        <meta name='robots' content='index, follow' />
+        <meta
+          name='viewport'
+          content='width=device-width,initial-scale=1.0'></meta>
+
         <link rel='icon' href='/favicon.ico' />
       </Head>
 

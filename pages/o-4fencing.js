@@ -12,6 +12,11 @@ function fencing() {
           name='description'
           content='Light Residential construction in Effingham county. We serve the Effingham community through light residential construction work. We are knnown for our deck builds along with general carpentry work.'
         />
+        <meta name='robots' content='index, follow' />
+        <meta
+          name='viewport'
+          content='width=device-width,initial-scale=1.0'></meta>
+
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <ProjectsContainer>
