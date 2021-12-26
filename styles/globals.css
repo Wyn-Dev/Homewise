@@ -133,11 +133,17 @@ p {
   display: grid;
   flex-direction: row;
 }
+.serve {
+  height: 500px;
+}
 
 /* ===========================================Footer Component */
 
 footer {
   min-height: 300px;
+}
+footer img {
+  margin: 20px;
 }
 .footerStyle {
   display: flex;
@@ -145,7 +151,8 @@ footer {
   align-content: flex-end;
   flex-direction: row;
   align-items: center;
-  background-color: rgba(45, 45, 48, 0.98);
+  background-color: rgba(45, 45, 48, 0.9);
+  color: #e6dff5;
   /* padding-top: 50px; */
 }
 tel {
