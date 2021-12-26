@@ -1,10 +1,18 @@
 import React from "react"
 import ProjectsContainer from "../components/Containers/ProjectsContainers"
 import { Image } from "react-bootstrap"
-
+import Head from "next/head"
 function onestep() {
   return (
     <div>
+      <Head>
+        <title>About Homewise Construction</title>
+        <meta
+          name='description'
+          content='Light Residential construction in Effingham county. We serve the Effingham community through light residential construction work. We are knnown for our deck builds along with general carpentry work.'
+        />
+        <link rel='icon' href='/favicon.ico' />
+      </Head>
       <ProjectsContainer>
         <div className='imagesContainer'>
           <Image src='/images/projects/p3/P3-00.jpg' alt='image' />

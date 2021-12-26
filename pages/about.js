@@ -2,10 +2,18 @@ import React from "react"
 import { Row, Col, Container, Image } from "react-bootstrap"
 import StripsContainer from "../components/Containers/StripContainers"
 import BioContainer from "../components/Containers/BioContainer"
-
+import Head from "next/head"
 function About() {
   return (
     <div className='about'>
+      <Head>
+        <title>About Homewise Construction</title>
+        <meta
+          name='description'
+          content='Light Residential construction in Effingham county. We serve the Effingham community through light residential construction work. We are knnown for our deck builds along with general carpentry work.'
+        />
+        <link rel='icon' href='/favicon.ico' />
+      </Head>
       <Container>
         <div className='aboutInner'>
           <Row>
