@@ -1,6 +1,5 @@
 import React from "react"
 import { Breadcrumb } from "react-bootstrap"
-
 function ProjectsContainer({ children }) {
   return (
     <div className='projectContainer'>
@@ -10,6 +9,11 @@ function ProjectsContainer({ children }) {
         </Breadcrumb.Item>
       </Breadcrumb>
       {children}
+      <Breadcrumb>
+        <Breadcrumb.Item href='/projects' className='nextProject'>
+          \ Next Project
+        </Breadcrumb.Item>
+      </Breadcrumb>
     </div>
   )
 }

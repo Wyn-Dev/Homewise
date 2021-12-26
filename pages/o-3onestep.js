@@ -6,18 +6,25 @@ function onestep() {
   return (
     <div>
       <ProjectsContainer>
-        <div>
-          {" "}
-          <Image src='/images/t/ph.PNG' alt='image' height={300} width={450} />
+        <div className='imagesContainer'>
+          <Image src='/images/projects/p3/P3-00.jpg' alt='image' />
+          <Image src='/images/projects/p3/P3-01.jpg' alt='image' />
+          <Image src='/images/projects/p3/P3-02.jpg' alt='image' />
         </div>
-        <h2>Step Deck</h2>
-        <p>
-          The focus of this deck was to provide a minimal footprint, give
-          functionality where it was needed, and just give a warmer, softer feel
-          to the deck from what was there before. We poured new concrete that
-          gave a foundation to the new hot tub for the home. The end product was
-          exactly what the client wanted.{" "}
-        </p>
+        <div className='projectLower'>
+          <div className='projectLowerh2'>
+            <h2>Step Deck</h2>
+          </div>
+          <div className='projectLowerp'>
+            <p>
+              The focus of this deck was to provide a minimal footprint, give
+              functionality where it was needed, and just give a warmer, softer
+              feel to the deck from what was there before. We poured new
+              concrete that gave a foundation to the new hot tub for the home.
+              The end product was exactly what the client wanted.{" "}
+            </p>
+          </div>
+        </div>
       </ProjectsContainer>
     </div>
   )

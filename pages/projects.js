@@ -101,7 +101,9 @@ function projects() {
             </Link>
           </Col>
           <Col></Col>
-          <Col></Col>
+          <Col>
+            <p>Check back every month, we have new projects every month.</p>
+          </Col>
         </Row>
       </Container>
     </div>
