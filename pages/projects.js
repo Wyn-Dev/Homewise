@@ -2,11 +2,12 @@ import React from "react"
 import Link from "next/link"
 import Head from "next/head"
 import { Image, Row, Col, Container } from "react-bootstrap"
+
 function projects() {
   return (
     <div className='projects'>
       <Head>
-        <title>Projects@Homewise Construction</title>
+        <title>Projects at Homewise Construction</title>
         <meta
           name='description'
           content='Light Residential construction in Effingham county. We serve the Effingham community through light residential construction work. We are knnown for our deck builds along with general carpentry work.'

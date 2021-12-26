@@ -4,7 +4,11 @@ function services() {
   return (
     <div className='services'>
       <Head>
+<<<<<<< HEAD
         <title>Services@Homewise Construction</title>
+=======
+        <title>Services @ Homewise Construction</title>
+>>>>>>> a2049fee677e384f5e57d7b2e33d37364d053f1c
         <meta
           name='viewport'
           content='width=device-width, initial-scale=1.0'></meta>
