@@ -1,8 +1,15 @@
 import React from "react"
-
+import Head from "next/head"
 function services() {
   return (
     <div className='services'>
+      <Head>
+        <title>Homewise Construction-Services</title>
+        <meta
+          name='viewport'
+          content='width=device-width, initial-scale=1.0'></meta>
+        <meta description='Homewise Construction offers a number serccies in light residential construction. Home additions, decks, proches, bathroom renovations, kitchen remodeling, a number of other services are offered by Homewise Construction.' />
+      </Head>
       <h1>\ Exclusive Services</h1>
       <div>
         <h4> \ Home Additions</h4>

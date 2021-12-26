@@ -53,16 +53,37 @@ h3 {
 p {
   font-family: Avenir, sans-serif;
   font-size: 14px;
+  padding: 10px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  list-style-type: none;
+  padding-left: 0%;
+}
+span {
+  font-family: Oswald;
+  font-size: 20px;
 }
 
 li {
-  display: flex;
-  flex-direction: column;
   font-family: Avenir, sans-serif;
   font-size: 14px;
-  list-style-type: none;
-  justify-content: center;
+  align-self: center;
   align-items: center;
+}
+
+.navigation {
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+.justify-content-end a {
+  justify-content: flex-end;
 }
 
 .breadcrumb {
@@ -70,7 +91,11 @@ li {
   font-size: 1rem;
   padding: 10px;
 }
-
+.sm-icons {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
 .nextProject {
   position: absolute;
   font-family: Oswald;
@@ -149,6 +174,7 @@ footer img {
   color: #e6dff5;
   min-width: 320px;
   /* padding-top: 50px; */
+  gap: 100px;
 }
 tel {
   justify-content: center;
@@ -170,11 +196,13 @@ tel {
   text-transform: none;
   margin-top: 10px;
   margin-bottom: 20px;
-  margin-right: 20px;
+  margin-left: 20px;
 }
 .services div {
+  align-self: center;
   margin-bottom: 5%;
   border-bottom: 50px;
+  max-width: 500px;
 }
 
 .services h1 {
