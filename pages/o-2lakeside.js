@@ -15,10 +15,22 @@ function lakeside() {
       </Head>
       <ProjectsContainer>
         <div className='imagesContainer'>
-          <Image src='/images/projects/p2/P2-00.jpg' alt='image' />
-          <Image src='/images/projects/p2/P2-01.jpg' alt='image' />
-          <Image src='/images/projects/p2/P2-02.jpg' alt='image' />
-          <Image src='/images/projects/p2/P2-03.jpg' alt='image' />
+          <Image
+            src='/images/projects/p2/P2-00.jpg'
+            alt='Homewise Construction. This image shows the home after the existing deck was removed.'
+          />
+          <Image
+            src='/images/projects/p2/P2-01.jpg'
+            alt='Homewise Construction. This image shows the wooden deck being built at a very early stage.'
+          />
+          <Image
+            src='/images/projects/p2/P2-02.jpg'
+            alt='Homewise Construction. This image shows the deck overlooking the lake.'
+          />
+          <Image
+            src='/images/projects/p2/P2-03.jpg'
+            alt='Homewise Construction. This image shows the completed deck as part of the lakeside light residential construction work. '
+          />
         </div>
         <div className='projectLower'>
           <div className='projectLowerh2'>

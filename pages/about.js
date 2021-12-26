@@ -89,7 +89,7 @@ function About() {
               <Image
                 className='imageB'
                 src='/images/bio/Bio-Jim.jpg'
-                alt='Jim Pagone'
+                alt='Jim Pagone. Homewise Construction. Jim is a partner at Homewise Construction.'
               />
             </Col>
             <Col>
@@ -116,7 +116,7 @@ function About() {
               <Image
                 className='imageB'
                 src='/images/bio/Bio-Greg.jpg'
-                alt='Greg Smith'
+                alt='Greg Smith. Homewise Construction. Greg is a parter at Homewise Construction.'
               />
             </Col>
             <Col>
@@ -141,7 +141,7 @@ function About() {
               <Image
                 className='imageB'
                 src='/images/bio/Bio-Jim.jpg'
-                alt='Jim Pagone'
+                alt='Justin Kresin. Homewise Construction. Justin is a construction technician at Homewise Construction.'
               />
             </Col>
             <Col>

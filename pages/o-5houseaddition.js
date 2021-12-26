@@ -15,12 +15,30 @@ function houseaddition() {
       </Head>
       <ProjectsContainer>
         <div className='imagesContainer'>
-          <Image src='/images/projects/p5/P5-00.jpg' alt='image' />
-          <Image src='/images/projects/p5/P5-01.jpg' alt='image' />
-          <Image src='/images/projects/p5/P5-02.jpg' alt='image' />
-          <Image src='/images/projects/p5/P5-03.jpg' alt='image' />
-          <Image src='/images/projects/p5/P5-04.jpg' alt='image' />
-          <Image src='/images/projects/p5/P5-05.jpg' alt='image' />
+          <Image
+            src='/images/projects/p5/P5-00.jpg'
+            alt='Homewise Construction. This image shows the initial stage of the house addition build along the back part of the house.'
+          />
+          <Image
+            src='/images/projects/p5/P5-01.jpg'
+            alt='Homewise Construction. This image shows the initial stage of the house from another angle.'
+          />
+          <Image
+            src='/images/projects/p5/P5-02.jpg'
+            alt='Homewise Construction. This image shows the completed exterior of our light residential construction work for the house addition project.'
+          />
+          <Image
+            src='/images/projects/p5/P5-03.jpg'
+            alt='Homewise Construction. This image shows the exterior of the house addition project. '
+          />
+          <Image
+            src='/images/projects/p5/P5-04.jpg'
+            alt='Homewise Construction. This image shows the interior of the house addition light residential construction project.'
+          />
+          <Image
+            src='/images/projects/p5/P5-05.jpg'
+            alt='Homewise Construction. This image shows the interior of the house addition from another angle.'
+          />
         </div>
         <div className='projectLower'>
           <div className='projectLowerh2'>

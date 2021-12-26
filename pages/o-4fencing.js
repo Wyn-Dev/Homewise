@@ -16,9 +16,18 @@ function fencing() {
       </Head>
       <ProjectsContainer>
         <div className='imagesContainer'>
-          <Image src='/images/projects/p4/P4-00.jpg' alt='image' />
-          <Image src='/images/projects/p4/P4-01.jpg' alt='image' />
-          <Image src='/images/projects/p4/P4-02.jpg' alt='image' />
+          <Image
+            src='/images/projects/p4/P4-00.jpg'
+            alt='Homewise Construction. This image shows the fencing light residential construction work along the permieter of the backyard.'
+          />
+          <Image
+            src='/images/projects/p4/P4-01.jpg'
+            alt='Homewise Construction. This image shows thee fencing along the perimeter of the backyard.'
+          />
+          <Image
+            src='/images/projects/p4/P4-02.jpg'
+            alt='Homewise Construction. This image shows the completed fencing project. '
+          />
         </div>
         <div className='projectLower'>
           <div className='projectLowerh2'>

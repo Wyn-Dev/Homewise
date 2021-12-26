@@ -28,7 +28,7 @@ function projects() {
                   className='imageP'
                   src='/images/projects/P1-06.jpg'
                   fluid
-                  alt='Homewise Construction'
+                  alt='Homewise Construction. This image shows the completed roof and deck project overlooking the backyard. '
                 />
               </a>
             </Link>
@@ -40,7 +40,7 @@ function projects() {
                   className='imageP'
                   src='/images/projects/P2-03.jpg'
                   fluid
-                  alt='Homewise Construction'
+                  alt='Homewise Construction. This image shows the completed lakeside project. '
                 />
               </a>
             </Link>
@@ -52,7 +52,7 @@ function projects() {
                   className='imageP'
                   src='/images/projects/P3-02.jpg'
                   fluid
-                  alt='Homewise Construction'
+                  alt='Homewise Construction. This image shows the completed one step deck project.'
                 />
               </a>
             </Link>
@@ -65,7 +65,7 @@ function projects() {
                 <Image
                   className='imageP'
                   src='/images/projects/P4-02.jpg'
-                  alt='Homewise Construction'
+                  alt='Homewise Construction. This image shows the completed fecning project.'
                   fluid
                 />
               </a>
@@ -77,7 +77,7 @@ function projects() {
                 <Image
                   className='imageP'
                   src='/images/projects/P5-05.jpg'
-                  alt='Homewise Construction'
+                  alt='Homewise Construction. This image shows the interior of the completed house addition project.'
                   fluid
                 />
               </a>
@@ -89,7 +89,7 @@ function projects() {
                 <Image
                   className='imageP'
                   src='/images/projects/P6-04.jpg'
-                  alt='Homewise Construction'
+                  alt='Homewise Construction. This image shows the completed backyard deck blend project.'
                   fluid
                 />
               </a>
@@ -103,7 +103,7 @@ function projects() {
                 <Image
                   className='imageP'
                   src='/images/projects/P7-Final.jpg'
-                  alt='Homewise Construction'
+                  alt='Homewise Construction. This image shows the completed open deck project.'
                   fluid
                 />
               </a>

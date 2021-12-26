@@ -15,9 +15,18 @@ function onestep() {
       </Head>
       <ProjectsContainer>
         <div className='imagesContainer'>
-          <Image src='/images/projects/p3/P3-00.jpg' alt='image' />
-          <Image src='/images/projects/p3/P3-01.jpg' alt='image' />
-          <Image src='/images/projects/p3/P3-02.jpg' alt='image' />
+          <Image
+            src='/images/projects/p3/P3-00.jpg'
+            alt='Homewise Construction. This image shows the deck with one step in the final stages of light residential construction work.'
+          />
+          <Image
+            src='/images/projects/p3/P3-01.jpg'
+            alt='Homewise Construction. This image shows the deck from another angle.'
+          />
+          <Image
+            src='/images/projects/p3/P3-02.jpg'
+            alt='Homewise Construction. This image shows the completed deck for the light residential construction work.'
+          />
         </div>
         <div className='projectLower'>
           <div className='projectLowerh2'>

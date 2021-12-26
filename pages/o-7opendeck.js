@@ -15,10 +15,22 @@ function opendeck() {
       </Head>
       <ProjectsContainer>
         <div className='imagesContainer'>
-          <Image src='/images/projects/p7/P7-00.jpg' alt='image' />
-          <Image src='/images/projects/p7/P7-01.jpg' alt='image' />
-          <Image src='/images/projects/p7/P7-02.jpg' alt='image' />
-          <Image src='/images/projects/p7/P7-03.jpg' alt='image' />
+          <Image
+            src='/images/projects/p7/P7-00.jpg'
+            alt='Homewise Construction. This image shows the deck being built at an early stage.'
+          />
+          <Image
+            src='/images/projects/p7/P7-01.jpg'
+            alt='Homewise Construction. This image shows the deck at a late phase with only boarding of the staircase still under construction.'
+          />
+          <Image
+            src='/images/projects/p7/P7-02.jpg'
+            alt='Homewise Construction. This image shows the completed deck as part of our open flat deck light residential construction work project.'
+          />
+          <Image
+            src='/images/projects/p7/P7-03.jpg'
+            alt='Homewise Construction. This image shows the completed deck from another angle.'
+          />
         </div>
         <div className='projectLower'>
           <div className='projectLowerh2'>

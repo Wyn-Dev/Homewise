@@ -15,10 +15,22 @@ function deckblend() {
       </Head>
       <ProjectsContainer>
         <div className='imagesContainer'>
-          <Image src='/images/projects/p6/P6-01.jpg' alt='image' />
-          <Image src='/images/projects/p6/P6-02.jpg' alt='image' />
-          <Image src='/images/projects/p6/P6-03.jpg' alt='image' />
-          <Image src='/images/projects/p6/P6-04.jpg' alt='image' />
+          <Image
+            src='/images/projects/p6/P6-01.jpg'
+            alt='Homewise Construction. This image shows the original deck of the house.'
+          />
+          <Image
+            src='/images/projects/p6/P6-02.jpg'
+            alt='Homewise Construction. This image shows the deck in a late phase where the railing is being placed.'
+          />
+          <Image
+            src='/images/projects/p6/P6-03.jpg'
+            alt='Homewise Construction. This image shows the deck in a late stage.'
+          />
+          <Image
+            src='/images/projects/p6/P6-04.jpg'
+            alt='Homewise Construction. This image shows the completed deck as part of our light residential construction work. '
+          />
         </div>
         <div className='projectLower'>
           <div className='projectLowerh2'>
