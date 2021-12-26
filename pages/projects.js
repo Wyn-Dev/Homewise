@@ -1,9 +1,19 @@
 import React from "react"
 import Link from "next/link"
 import { Image, Row, Col, Container } from "react-bootstrap"
+import Head from "next/head"
+
 function projects() {
   return (
     <div className='projects'>
+      <Head>
+        <title>Projects @ Homewise Construction</title>
+        <meta
+          name='description'
+          content='Top light residential construction in Effingham county'
+        />
+        <link rel='icon' href='/favicon.ico' />
+      </Head>
       <h1> \ Projects</h1>
       <p>
         This is a small collection of the projects we completed over the last

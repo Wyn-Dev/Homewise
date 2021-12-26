@@ -4,7 +4,7 @@ function services() {
   return (
     <div className='services'>
       <Head>
-        <title>Homewise Construction-Services</title>
+        <title>Services @ Homewise Construction</title>
         <meta
           name='viewport'
           content='width=device-width, initial-scale=1.0'></meta>

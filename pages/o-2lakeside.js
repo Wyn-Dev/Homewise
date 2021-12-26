@@ -1,10 +1,19 @@
 import React from "react"
 import ProjectsContainer from "../components/Containers/ProjectsContainers"
 import { Image } from "react-bootstrap"
+import Head from "next/head"
 
 function lakeside() {
   return (
     <div>
+      <Head>
+        <title> Lakeside Deck from Homewise Construction</title>
+        <meta
+          name='description'
+          content='Top light residential construction in Effingham county'
+        />
+        <link rel='icon' href='/favicon.ico' />
+      </Head>
       <ProjectsContainer>
         <div className='imagesContainer'>
           <Image src='/images/projects/p2/P2-00.jpg' alt='image' />
