@@ -98,7 +98,7 @@ function Home() {
 
         <StripContainers>
           <div>
-            <h2>Places we serve</h2>
+            <h2>Places We Serve</h2>
             <div className='innertext'>
               <p>
                 Based out of Effingham County, we travel to the following areas:

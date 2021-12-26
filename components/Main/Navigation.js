@@ -10,7 +10,9 @@ import {
   FormControl,
   Button,
 } from "react-bootstrap"
+import Image from "next/image"
 import Link from "next/link"
+
 function Navigation() {
   return (
     <div>
@@ -18,7 +20,15 @@ function Navigation() {
 
       <Navbar bg='light' expand='lg'>
         <Container>
-          <Navbar.Brand href='/'>Homewise</Navbar.Brand>
+          <Navbar.Brand href='/'>
+            <Image
+              src='/images/logo/logo-homewise.png'
+              alt='Homewise'
+              height={88.6}
+              width={170}
+            />
+          </Navbar.Brand>
+
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='me-auto'>
