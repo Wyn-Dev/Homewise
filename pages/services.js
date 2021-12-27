@@ -5,13 +5,28 @@ function services() {
     <div className='services'>
       <Head>
         <title>Services@Homewise Construction</title>
-        <meta
-          name='viewport'
-          content='width=device-width, initial-scale=1.0'></meta>
         <meta description='Homewise Construction offers a number serccies in light residential construction. Home additions, decks, proches, bathroom renovations, kitchen remodeling, a number of other services are offered by Homewise Construction.' />
 
         <meta name='viewport' content='width=device-width,initial-scale=1.0' />
         <meta name='robots' content='index, follow' />
+        <link
+          rel='apple-touch-icon'
+          sizes='180x180'
+          href='/apple-touch-icon.png'
+        />
+        <link
+          rel='icon'
+          type='image/png'
+          sizes='32x32'
+          href='/favicon-32x32.png'
+        />
+        <link
+          rel='icon'
+          type='image/png'
+          sizes='16x16'
+          href='/favicon-16x16.png'
+        />
+        <link rel='manifest' href='/site.webmanifest' />
       </Head>
       <h1>\ Exclusive Services</h1>
       <div>
