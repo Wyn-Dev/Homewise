@@ -55,7 +55,7 @@ function deckblend() {
         </div>
         <div className='projectLower'>
           <div className='projectLowerh2'>
-            <h2>Deck Blend</h2>
+            <h1> \ Deck Blend</h1>
           </div>
           <div className='projectLowerp'>
             <p>

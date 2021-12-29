@@ -55,7 +55,7 @@ function opendeck() {
         </div>
         <div className='projectLower'>
           <div className='projectLowerh2'>
-            <h1> Open Flat Deck </h1>
+            <h1> \ Open Flat Deck </h1>
           </div>
           <div className='projectLowerp'>
             <p>

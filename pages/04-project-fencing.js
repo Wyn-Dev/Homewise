@@ -52,7 +52,7 @@ function fencing() {
         </div>
         <div className='projectLower'>
           <div className='projectLowerh2'>
-            <h2>Perimeter Fencing</h2>
+            <h1> \ Perimeter Fencing</h1>
           </div>
           <div className='projectLowerp'>
             <p>

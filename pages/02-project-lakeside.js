@@ -55,7 +55,7 @@ function lakeside() {
         </div>
         <div className='projectLower'>
           <div className='projectLowerh2'>
-            <h2>Lakeside Deck</h2>
+            <h1> \ Lakeside Deck</h1>
           </div>
           <div className='projectLowerp'>
             <p>

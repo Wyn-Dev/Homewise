@@ -51,7 +51,7 @@ function onestep() {
         </div>
         <div className='projectLower'>
           <div className='projectLowerh2'>
-            <h2>Step Deck</h2>
+            <h1> \ Step Deck</h1>
           </div>
           <div className='projectLowerp'>
             <p>

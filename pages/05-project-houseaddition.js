@@ -15,7 +15,7 @@ function houseaddition() {
         <meta
           name='viewport'
           content='width=device-width,initial-scale=1.0'></meta>
-  <link
+        <link
           rel='apple-touch-icon'
           sizes='180x180'
           href='/apple-touch-icon.png'
@@ -63,7 +63,7 @@ function houseaddition() {
         </div>
         <div className='projectLower'>
           <div className='projectLowerh2'>
-            <h2> \ House Addition & Split side Deck</h2>
+            <h1> \ House Addition & Split side Deck</h1>
           </div>
           <div className='projectLowerp'>
             <p>

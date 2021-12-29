@@ -68,7 +68,7 @@ function roofdeck() {
         </div>
         <div className='projectLower'>
           <div className='projectLowerh2'>
-            <h2>Deck and Roof</h2>
+            <h1> \ Roofed Deck</h1>
           </div>
           <div className='projectLowerp'>
             <p>

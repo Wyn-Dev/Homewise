@@ -1,6 +1,5 @@
 import React from "react"
-import Navigation from "./Navigation"
-import Footer from "./Footer"
+
 import Head from "next/head"
 
 function Layout({ children }) {
@@ -14,9 +13,7 @@ function Layout({ children }) {
           crossOrigin=''
         />
       </Head>
-      <Navigation />
       {children}
-      <Footer />
     </>
   )
 }
