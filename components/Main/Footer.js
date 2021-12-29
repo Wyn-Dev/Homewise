@@ -44,7 +44,9 @@ function Footer() {
       </div>
       <div>
         <p>GET IN TOUCH:</p>
-        <tel>tel: (217) 259-4808</tel>
+        <a href='tel:217-259-4808'>
+          <tel>tel: (217) 259-4808</tel>
+        </a>
       </div>
     </footer>
   )

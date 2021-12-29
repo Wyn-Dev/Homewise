@@ -1,6 +1,6 @@
 import React from "react"
 import ProjectsContainer from "../components/Containers/ProjectsContainers"
-import { Image, Row, Col } from "react-bootstrap"
+import { Image } from "react-bootstrap"
 import Head from "next/head"
 function roofdeck() {
   return (

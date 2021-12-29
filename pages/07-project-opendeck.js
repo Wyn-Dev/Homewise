@@ -2,7 +2,7 @@ import React from "react"
 import ProjectsContainer from "../components/Containers/ProjectsContainers"
 import { Image } from "react-bootstrap"
 import Head from "next/head"
-function deckblend() {
+function opendeck() {
   return (
     <div>
       <Head>
@@ -37,39 +37,37 @@ function deckblend() {
       <ProjectsContainer>
         <div className='imagesContainer'>
           <Image
-            src='/images/projects/p6/P6-01.jpg'
-            alt='Homewise Construction. This image shows the original deck of the house.'
+            src='/images/projects/p7/P7-00.jpg'
+            alt='Homewise Construction. This image shows the deck being built at an early stage.'
           />
           <Image
-            src='/images/projects/p6/P6-02.jpg'
-            alt='Homewise Construction. This image shows the deck in a late phase where the railing is being placed.'
+            src='/images/projects/p7/P7-01.jpg'
+            alt='Homewise Construction. This image shows the deck at a late phase with only boarding of the staircase still under construction.'
           />
           <Image
-            src='/images/projects/p6/P6-03.jpg'
-            alt='Homewise Construction. This image shows the deck in a late stage.'
+            src='/images/projects/p7/P7-02.jpg'
+            alt='Homewise Construction. This image shows the completed deck as part of our open flat deck light residential construction work project.'
           />
           <Image
-            src='/images/projects/p6/P6-04.jpg'
-            alt='Homewise Construction. This image shows the completed deck as part of our light residential construction work. '
+            src='/images/projects/p7/P7-03.jpg'
+            alt='Homewise Construction. This image shows the completed deck from another angle.'
           />
         </div>
         <div className='projectLower'>
           <div className='projectLowerh2'>
-            <h2>Deck Blend</h2>
+            <h1> Open Flat Deck </h1>
           </div>
           <div className='projectLowerp'>
             <p>
-              You love the space in your backyard but want to do a little more
-              with it. You enjoy all the space you have. ​ This home had an
-              existing deck and it played a significant part of the
-              family&apos;s day-to-day life. The idea was to rebuild what they
-              had and make it new again. With that in mind, we made took the
-              time to understand what worked and what could be improved upon. As
-              with all of our deck projects, we use southern yellow pine for the
-              joists, beams, and pillars. Composite wood was used for the
-              decking material. Aluminum railing added a modern touch that
-              brings it all together to make the deck blend in well with the
-              rest of the house.{" "}
+              When you have a big backyard, you can do a lot with it. That
+              includes building a deck to do more things with the space. This
+              deck provides enough space for a good-sized barbecue. Our client
+              had that in mind when describing what the deck was going to be
+              used for. In the end, that&apos;s what we built for. We build the
+              foundation with beams, joists, and pillars made from treated
+              traditional wood. Decking material on this project is composite
+              wood, giving the deck a modern look. The railing adds to the look,
+              giving it class, comfort, and durability.
             </p>
           </div>
         </div>
@@ -78,4 +76,4 @@ function deckblend() {
   )
 }
 
-export default deckblend
+export default opendeck

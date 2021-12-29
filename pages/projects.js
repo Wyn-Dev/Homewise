@@ -45,7 +45,7 @@ function projects() {
       <Container>
         <Row>
           <Col>
-            <Link href='/o-1roofdeck'>
+            <Link href='/01-project-roofed-deck'>
               <a>
                 <Image
                   className='imageP'
@@ -57,7 +57,7 @@ function projects() {
             </Link>
           </Col>
           <Col>
-            <Link href='/o-2lakeside'>
+            <Link href='/02-project-lakeside'>
               <a>
                 <Image
                   className='imageP'
@@ -69,7 +69,7 @@ function projects() {
             </Link>
           </Col>
           <Col>
-            <Link href='/o-3onestep'>
+            <Link href='/03-project-onestep'>
               <a>
                 <Image
                   className='imageP'
@@ -83,7 +83,7 @@ function projects() {
         </Row>
         <Row>
           <Col>
-            <Link href='/o-4fencing'>
+            <Link href='/04-project-fencing'>
               <a>
                 <Image
                   className='imageP'
@@ -95,7 +95,7 @@ function projects() {
             </Link>
           </Col>
           <Col>
-            <Link href='/o-5houseaddition'>
+            <Link href='/05-project-houseaddition'>
               <a>
                 <Image
                   className='imageP'
@@ -107,7 +107,7 @@ function projects() {
             </Link>
           </Col>
           <Col>
-            <Link href='/o-6deckblend'>
+            <Link href='/06-project-deckblend'>
               <a>
                 <Image
                   className='imageP'
@@ -121,7 +121,7 @@ function projects() {
         </Row>
         <Row>
           <Col>
-            <Link href='/o-7opendeck'>
+            <Link href='/07-project-opendeck'>
               <a>
                 <Image
                   className='imageP'

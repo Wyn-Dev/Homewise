@@ -23,25 +23,25 @@ function Navigation() {
                 <Nav.Link href='/about'>About</Nav.Link>
                 <Nav.Link href='/services'>Services</Nav.Link>
                 <NavDropdown title='Projects' id='basic-nav-dropdown'>
-                  <NavDropdown.Item href='/o-1roofdeck'>
+                  <NavDropdown.Item href='/01-project-roofed-deck'>
                     RoofDeck
                   </NavDropdown.Item>
-                  <NavDropdown.Item href='/o-2lakeside'>
+                  <NavDropdown.Item href='/02-project-lakeside'>
                     Lakeside
                   </NavDropdown.Item>
-                  <NavDropdown.Item href='/o-3onestep'>
+                  <NavDropdown.Item href='/03-project-onestep'>
                     One Step Deck
                   </NavDropdown.Item>
-                  <NavDropdown.Item href='/o-4fencing'>
+                  <NavDropdown.Item href='/04-project-fencing'>
                     Fencing
                   </NavDropdown.Item>
-                  <NavDropdown.Item href='/o-5houseaddition'>
+                  <NavDropdown.Item href='/05-project-houseaddition'>
                     House Addition
                   </NavDropdown.Item>
-                  <NavDropdown.Item href='/o-6deckblend'>
+                  <NavDropdown.Item href='/06-project-deckblend'>
                     Deck Blend
                   </NavDropdown.Item>
-                  <NavDropdown.Item href='/o-7opendeck'>
+                  <NavDropdown.Item href='/07-project-opendeck'>
                     Open Flat Deck
                   </NavDropdown.Item>
                 </NavDropdown>
