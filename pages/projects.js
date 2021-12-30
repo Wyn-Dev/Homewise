@@ -69,11 +69,11 @@ function projects() {
             </Link>
           </Col>
           <Col>
-            <Link href='/03-project-onestep'>
+            <Link href='/03-project-side-deck-and-entrances'>
               <a>
                 <Image
                   className='imageP'
-                  src='/images/projects/P3-02.jpg'
+                  src='/images/projects/P3-04.jpg'
                   fluid
                   alt='Homewise Construction. This image shows the completed one step deck project.'
                 />

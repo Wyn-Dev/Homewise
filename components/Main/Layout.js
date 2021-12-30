@@ -8,7 +8,7 @@ function Layout({ children }) {
       <Head>
         <link
           rel='preload'
-          href='/fonts/Lulo Clean W01 One Bold.ttf'
+          href='/fonts/FontsFree-Net-Lulo-Clean-W01-One-Bold.ttf'
           as='font'
           crossOrigin=''
         />

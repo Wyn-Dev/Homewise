@@ -41,6 +41,10 @@ function deckblend() {
             alt='Homewise Construction. This image shows the original deck of the house.'
           />
           <Image
+            src='/images/projects/p6/P6-00.jpg'
+            alt='Homewise Construction. This image shows the original deck of the house.'
+          />
+          <Image
             src='/images/projects/p6/P6-02.jpg'
             alt='Homewise Construction. This image shows the deck in a late phase where the railing is being placed.'
           />

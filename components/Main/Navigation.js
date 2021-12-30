@@ -15,22 +15,29 @@ function Navigation() {
               width={170}
             />
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls='basic-navbar-nav' />
+
+          <Navbar.Toggle
+            aria-controls='basic-navbar-nav'
+            className='justify-content-end'
+          />
           <Navbar.Collapse id='basic-navbar-nav'>
-            <Nav className='me-auto'>
+            <Nav className='justify-content-end'>
               <Nav className='justify-content-end'>
                 <Nav.Link href='/'>Home</Nav.Link>
                 <Nav.Link href='/about'>About</Nav.Link>
                 <Nav.Link href='/services'>Services</Nav.Link>
                 <NavDropdown title='Projects' id='basic-nav-dropdown'>
+                  <NavDropdown.Item href='/projects'>
+                    - All Projects -
+                  </NavDropdown.Item>
                   <NavDropdown.Item href='/01-project-roofed-deck'>
-                    RoofDeck
+                    Roofed Deck
                   </NavDropdown.Item>
                   <NavDropdown.Item href='/02-project-lakeside'>
-                    Lakeside
+                    Lakeside Deck
                   </NavDropdown.Item>
-                  <NavDropdown.Item href='/03-project-onestep'>
-                    One Step Deck
+                  <NavDropdown.Item href='/03-project-side-deck-and-entrances'>
+                    Side Deck and Entrances
                   </NavDropdown.Item>
                   <NavDropdown.Item href='/04-project-fencing'>
                     Fencing

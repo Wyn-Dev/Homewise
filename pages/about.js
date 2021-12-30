@@ -34,30 +34,24 @@ function About() {
         <link rel='manifest' href='/site.webmanifest' />
       </Head>
       <Container>
+        <h1>\ About Us</h1>
         <div className='aboutInner'>
-          <h1>\ About Us</h1>
-
-          <div>
-            <h2>\ The History</h2>
-            <p>
-              Since 2018, Homewise Construction has built on it&apos;s 40 years
-              of combined experience to provide Effingham County with a level of
-              quality in home construction that is unparalleled. The story
-              starts back in 1993 when Jim Pagone and Greg Smith worked together
-              at Don Boggs Construction. Folks in the area know the quality Don
-              Boggs is known for. We continue that tradition of providing high
-              quality craftsmanship into Homewise.
-            </p>
-            <p>
-              With the wide scope of construction work available, we focused on
-              residential homes to become highly specialized and skilled at
-              providing exactly what our clients want. Decks have also become
-              our main specialty here in Effingham.
-            </p>
-          </div>
-        </div>
-
-        <div>
+          <h2>\ The History</h2>
+          <p>
+            Since 2018, Homewise Construction has built on it&apos;s 40 years of
+            combined experience to provide Effingham County with a level of
+            quality in home construction that is unparalleled. The story starts
+            back in 1993 when Jim Pagone and Greg Smith worked together at Don
+            Boggs Construction. Folks in the area know the quality Don Boggs is
+            known for. We continue that tradition of providing high quality
+            craftsmanship into Homewise.
+          </p>
+          <p>
+            With the wide scope of construction work available, we focused on
+            residential homes to become highly specialized and skilled at
+            providing exactly what our clients want. Decks have also become our
+            main specialty here in Effingham.
+          </p>
           <h2>\ The Work</h2>
           <p>
             Construction work is in our blood, we really believe &ldquo;No job
