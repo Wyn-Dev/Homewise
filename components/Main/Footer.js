@@ -16,10 +16,11 @@ function Footer() {
 
       <div>
         <p>FOLLOW US:</p>
-        <Link
-          href='https://www.facebook.com/homewiseconstruction/'
-          passHref={true}>
-          <div className='sm-icons'>
+        <div className='sm-icons'>
+          <a
+            href='https://www.facebook.com/homewiseconstruction/'
+            target={"_blank"}
+            rel={"noreferrer"}>
             <Image
               className='gb'
               src='/images/icons/fb.png'
@@ -27,20 +28,22 @@ function Footer() {
               width={25}
               height={25}
             />
-          </div>
-        </Link>
-        <Link
-          href='https://instagram.com/homewiseconstruction/'
-          passHref={true}>
-          <div className='sm-icons'>
+          </a>
+        </div>
+        <div className='sm-icons'>
+          <a
+            href='https://www.instagram.com/homewiseconstruction/'
+            target={"_blank"}
+            rel={"noreferrer"}>
             <Image
+              className='gb'
               src='/images/icons/ig.png'
               alt='facebook'
               width={25}
               height={25}
             />
-          </div>
-        </Link>
+          </a>
+        </div>
       </div>
       <div>
         <p>GET IN TOUCH:</p>
