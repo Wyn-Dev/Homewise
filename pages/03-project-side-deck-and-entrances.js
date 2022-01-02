@@ -8,15 +8,13 @@ function sidedeck() {
   return (
     <div>
       <Head>
-        <title>About Homewise Construction</title>
+        <title>Side Deck from Homewise Construction</title>
         <meta
           name='description'
-          content='Light Residential construction in Effingham county. We serve the Effingham community through light residential construction work. We are knnown for our deck builds along with general carpentry work.'
+          content='Homewise Construction. This project was built with a combination of composite and treated lumber. Composite wood was installed for the decking and treated lumber was used for the infrastructure of joist, beams, and posts. Aluminum railing was installed for the perimeter and staircase. The front and back entrances were built with the same materials'
         />
+        <meta name='viewport' content='width=device-width,initial-scale=1.0' />
         <meta name='robots' content='index, follow' />
-        <meta
-          name='viewport'
-          content='width=device-width,initial-scale=1.0'></meta>
         <link
           rel='apple-touch-icon'
           sizes='180x180'

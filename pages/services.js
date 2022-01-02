@@ -4,9 +4,11 @@ function services() {
   return (
     <div className='servicesPage'>
       <Head>
-        <title>Services@Homewise Construction</title>
-        <meta description='Homewise Construction offers a number serccies in light residential construction. Home additions, decks, proches, bathroom renovations, kitchen remodeling, a number of other services are offered by Homewise Construction.' />
-
+        <title>Services | Homewise Construction</title>
+        <meta
+          name='description'
+          content='Homewise Construction offers a number services in light residential construction. Home additions, decks, proches, bathroom renovations, kitchen remodeling, a number of other services are offered by Homewise Construction.'
+        />
         <meta name='viewport' content='width=device-width,initial-scale=1.0' />
         <meta name='robots' content='index, follow' />
         <link

@@ -7,16 +7,13 @@ function projects() {
   return (
     <div className='projects'>
       <Head>
-        <title>Projects at Homewise Construction</title>
+        <title>Projects | Homewise Construction</title>
         <meta
           name='description'
-          content='Light Residential construction in Effingham county. We serve the Effingham community through light residential construction work. We are knnown for our deck builds along with general carpentry work.'
+          content='Light Residential construction in Effingham county. We serve the Effingham community through light residential construction work. We can help you make your house renovations become a reality as well as any general carpentry work.'
         />
+        <meta name='viewport' content='width=device-width,initial-scale=1.0' />
         <meta name='robots' content='index, follow' />
-        <meta
-          name='viewport'
-          content='width=device-width,initial-scale=1.0'></meta>
-
         <link
           rel='apple-touch-icon'
           sizes='180x180'
@@ -133,7 +130,7 @@ function projects() {
             </Link>
           </Col>
           <Col>
-            <Link href='/07-project-opendeck'>
+            <Link href='/08-project-room-remodel'>
               <a>
                 <Image
                   className='imageP'

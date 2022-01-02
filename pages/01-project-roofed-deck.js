@@ -11,11 +11,10 @@ function roofdeck() {
         <title>Roofed Deck Project from Homewise Construction</title>
         <meta
           name='description'
-          content='Light Residential construction in Effingham county. We serve the Effingham community through light residential construction work. We are knnown for our deck builds along with general carpentry work.'
+          content='Homewise Construction. This project included roofing, decking, installation of lights, and railins installation. We used both composite wood and treated lumber to build the deck. The roof was made with traditional roofing material. The railing was made of aluminum material'
         />
-        <meta name='robots' content='index, follow' />
         <meta name='viewport' content='width=device-width,initial-scale=1.0' />
-
+        <meta name='robots' content='index, follow' />
         <link
           rel='apple-touch-icon'
           sizes='180x180'
@@ -52,11 +51,11 @@ function roofdeck() {
           />
           <Image
             src='/images/projects/p1/P1-01.jpg'
-            alt='Homewise Construction. This image shows the beams, joist, and pillars in place for light residential construction.'
+            alt='Homewise Construction. This image shows the beams, joist, and pillars in place for light residential construction of a outdoor deck.'
           />
           <Image
             src='/images/projects/p1/P1-02.jpg'
-            alt='Homewise Construction. This image shows the initial framing of the deck.'
+            alt='Homewise Construction. This image shows the initial framing of the deck with joists, beams, and posts.'
           />
           <Image
             src='/images/projects/p1/P1-03.jpg'

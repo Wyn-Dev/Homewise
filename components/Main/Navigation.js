@@ -4,7 +4,7 @@ import Image from "next/image"
 
 function Navigation() {
   return (
-    <div>
+    <div className='navigation-main'>
       <Navbar bg='light' expand='lg' className='navigation justify-content-end'>
         <Container>
           <Navbar.Brand href='/'>

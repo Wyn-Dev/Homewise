@@ -5,10 +5,10 @@ function Footer() {
   return (
     <footer className='footerStyle'>
       <div>
-        <p>GET IN TOUCH:</p>
+        <h5>GET IN TOUCH:</h5>
 
         <p>
-          <span>Homewise Construction</span>
+          Homewise Construction
           <br />
           1005 W Edgar Ave.
           <br />

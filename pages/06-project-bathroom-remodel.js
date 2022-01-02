@@ -8,15 +8,13 @@ function deckblend() {
   return (
     <div>
       <Head>
-        <title>About Homewise Construction</title>
+        <title> Bathroom Remodel from Homewise Construction</title>
         <meta
           name='description'
-          content='Light Residential construction in Effingham county. We serve the Effingham community through light residential construction work. We are knnown for our deck builds along with general carpentry work.'
+          content='Homewise Construction. We built this bathroom remodel to make a new shower area in this home. The framing and drywall took little time to complete. We tiled the bathroom and placed lighting to complete to project. Light Residential construction in Effingham county. We serve the Effingham community through light residential construction work.'
         />
+        <meta name='viewport' content='width=device-width,initial-scale=1.0' />
         <meta name='robots' content='index, follow' />
-        <meta
-          name='viewport'
-          content='width=device-width,initial-scale=1.0'></meta>
         <link
           rel='apple-touch-icon'
           sizes='180x180'
@@ -81,7 +79,7 @@ function deckblend() {
           />
         </div>
         <div className='projectLower'>
-          <h1> \ Bathroom Remodel</h1>
+          <h2> \ Bathroom Remodel</h2>
           <div className='projectLowerCol'>
             <p>
               Remodeling your home can bring up a lot of ideaas that you&apos;ve

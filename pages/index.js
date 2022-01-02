@@ -9,13 +9,10 @@ function Home() {
         <title>Homewise Construction</title>
         <meta
           name='description'
-          content='Residential construction in Effingham county'
+          content='Homewise Construction. Light residential construction work is our speciality. Home additions, decks, proches, bathroom renovations, kitchen remodeling, a number of other services are offered by Homewise Construction.'
         />
         <meta name='robots' content='index, follow' />
-        <meta
-          name='viewport'
-          content='width=device-width,initial-scale=1.0'></meta>
-
+        <meta name='viewport' content='width=device-width,initial-scale=1.0' />
         <link
           rel='apple-touch-icon'
           sizes='180x180'
@@ -35,10 +32,9 @@ function Home() {
         />
         <link rel='manifest' href='/site.webmanifest' />
       </Head>
-
       <main>
         <div
-          className=' parallax maintext strip '
+          className='maintext strip '
           style={{ backgroundColor: "rgba(0,0,0,0)" }}>
           <h1>
             No Job

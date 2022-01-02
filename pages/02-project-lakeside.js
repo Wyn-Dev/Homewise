@@ -11,12 +11,10 @@ function lakeside() {
         <title>Lakeside Deck Construction from Homewise Construction</title>
         <meta
           name='description'
-          content='Light Residential construction in Effingham county. We serve the Effingham community through light residential construction work. We are knnown for our deck builds along with general carpentry work.'
+          content='Homewise Construction. The deck was made of treated lumber for all posts, joists, and beams as well as the decking. Aluminum railing was installed along the perimeter of the deck.'
         />
+        <meta name='viewport' content='width=device-width,initial-scale=1.0' />
         <meta name='robots' content='index, follow' />
-        <meta
-          name='viewport'
-          content='width=device-width,initial-scale=1.0'></meta>
         <link
           rel='apple-touch-icon'
           sizes='180x180'
@@ -61,11 +59,11 @@ function lakeside() {
           />
           <Image
             src='/images/projects/p2/P2-04.jpg'
-            alt='Homewise Construction. This image shows the completed deck as part of the lakeside light residential construction work. '
+            alt='Homewise Construction. This image shows a view from the deck looking down at the lake. '
           />
           <Image
             src='/images/projects/p2/P2-06.jpg'
-            alt='Homewise Construction. This image shows the completed deck as part of the lakeside light residential construction work. '
+            alt='Homewise Construction. This image shows a view of the house with the deck in full view. '
           />
           <Image
             src='/images/projects/p2/P2-07.jpg'
@@ -73,11 +71,11 @@ function lakeside() {
           />
           <Image
             src='/images/projects/p2/P2-08.jpg'
-            alt='Homewise Construction. This image shows the completed deck as part of the lakeside light residential construction work. '
+            alt='Homewise Construction. This image shows the completed deck as part of the lakeside light residential construction work. The deck is shown from an angle.'
           />
           <Image
             src='/images/projects/p2/P2-03.jpg'
-            alt='Homewise Construction. This image shows the completed deck as part of the lakeside light residential construction work. '
+            alt='Homewise Construction. This image shows the completed deck as part of the lakeside light residential construction work. The deck is shown from a west-facing angle looking east. '
           />
         </div>
         <div className='projectLower'>
