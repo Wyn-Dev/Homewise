@@ -2,6 +2,8 @@ import React from "react"
 import ProjectsContainer from "../components/Containers/ProjectsContainers"
 import { Image } from "react-bootstrap"
 import Head from "next/head"
+import Link from "next/link"
+
 function houseaddition() {
   return (
     <div>
@@ -35,6 +37,15 @@ function houseaddition() {
         <link rel='manifest' href='/site.webmanifest' />
       </Head>
       <ProjectsContainer>
+        <div className='prevnext'>
+          <Link href='/04-project-kitchen-remodel'>
+            <a>Previous Project</a>
+          </Link>
+          <Link href='/07-project-opendeck'>
+            <a>Next Project</a>
+          </Link>
+        </div>
+        <h1> \ House Addition & Split side Deck</h1>
         <div className='imagesContainer'>
           <Image
             src='/images/projects/p5/P5-00.jpg'
@@ -62,21 +73,36 @@ function houseaddition() {
           />
         </div>
         <div className='projectLower'>
-          <div className='projectLowerh2'>
-            <h1> \ House Addition & Split side Deck</h1>
-          </div>
-          <div className='projectLowerp'>
+          <h1> \ House Addition & Split side Deck</h1>
+          <div className='projectLowerCol'>
             <p>
-              The homes we work with always have something unique about the
-              project. This particular project gave us an opportunity to blend
-              our specialty of making decks with another of our specialties,
-              room additions. We built this house addition with two things in
-              mind, growth and expansion. The idea was to grow the inside of the
-              home by extend the existing living room and expand the house and
-              walking area with the deck. The room had a number of finishing
-              touches that make the room look like it was always a part of the
-              house. The deck provides space for viewing the large wooded
-              backyard area.{" "}
+              When we say we do light residential construction, this project
+              shows you the scale of what that means. House additions are
+              guaranteed to add value to your home and this house is no
+              exception. This house addition included extending the existing
+              living room of the house, building a deck that stretches the
+              distance of the backpart of the house, window and door
+              installations for the new room, and exterior and interior work to
+              match the existing design of the house. We built this house
+              addition with two things in mind, growth and expansion. The idea
+              was to grow the inside of the home by extend the existing living
+              room and expand the house and walking area with the deck. The room
+              had a number of finishing touches that make the room look like it
+              was always a part of the house.
+            </p>
+            <p>
+              We began by building portions of the deck along with the support
+              structure for the room extension. The focus was the room itself
+              and getting it functional for the family to use as soon as
+              possible. From there we built out the deck and exterior to add the
+              functionality right away. From there all of the detail work that
+              is necessary to make the project complete.
+            </p>
+            <p>
+              If you are thinking of building more room inn your home to make
+              more room or add value, take a look at this project and see what a
+              difference it can make. We can help you make those ideas take
+              shape and become a real part of your home.
             </p>
           </div>
         </div>

@@ -38,35 +38,70 @@ function opendeck() {
       </Head>
       <ProjectsContainer>
         <div className='prevnext'>
-          <Link href='/06-project-bathroom-remodel'>
-            <a>Previous Project</a>
+          <Link href='/07-project-opendeck'>
+            <a>Previous-Project</a>
           </Link>
-          <Link href='/08-project-room-remodel'>
-            <a>Next Project</a>
+          <Link href='/projects'>
+            <a>Back to All Projects</a>
           </Link>
         </div>
-        <h1> \ Open Flat Deck </h1>
+
+        <h1> \ Room Remodel </h1>
         <div className='imagesContainer'>
           <Image
-            src='/images/projects/p7/P7-00.jpg'
+            src='/images/projects/p8/P8-00.jpg'
             alt='Homewise Construction. This image shows the deck being built at an early stage.'
           />
           <Image
-            src='/images/projects/p7/P7-01.jpg'
+            src='/images/projects/p8/P8-01.jpg'
             alt='Homewise Construction. This image shows the deck at a late phase with only boarding of the staircase still under construction.'
           />
           <Image
-            src='/images/projects/p7/P7-02.jpg'
+            src='/images/projects/p8/P8-02.jpg'
             alt='Homewise Construction. This image shows the completed deck as part of our open flat deck light residential construction work project.'
           />
           <Image
-            src='/images/projects/p7/P7-03.jpg'
+            src='/images/projects/p8/P8-03.jpg'
+            alt='Homewise Construction. This image shows the completed deck from another angle.'
+          />
+          <Image
+            src='/images/projects/p8/P8-04.jpg'
+            alt='Homewise Construction. This image shows the completed deck from another angle.'
+          />{" "}
+          <Image
+            src='/images/projects/p8/P8-05.jpg'
+            alt='Homewise Construction. This image shows the completed deck from another angle.'
+          />{" "}
+          <Image
+            src='/images/projects/p8/P8-06.jpg'
             alt='Homewise Construction. This image shows the completed deck from another angle.'
           />
         </div>
         <div className='projectLower'>
-          <h1> \ Open Flat Deck </h1>
+          <h1> \ Room Remodel </h1>
           <div className='projectLowerCol'>
+            <p>
+              When you have a big backyard, you can do a lot with it. That
+              includes building a deck to do more things with the space. This
+              deck provides enough space for a good-sized barbecue. Our client
+              had that in mind when describing what the deck was going to be
+              used for. In the end, that&apos;s what we built for. We build the
+              foundation with beams, joists, and pillars made from treated
+              traditional wood. Decking material on this project is composite
+              wood, giving the deck a modern look. The railing adds to the look,
+              giving it class, comfort, and durability.
+            </p>
+            <p>
+              When you have a big backyard, you can do a lot with it. That
+              includes building a deck to do more things with the space. This
+              deck provides enough space for a good-sized barbecue. Our client
+              had that in mind when describing what the deck was going to be
+              used for. In the end, that&apos;s what we built for. We build the
+              foundation with beams, joists, and pillars made from treated
+              traditional wood. Decking material on this project is composite
+              wood, giving the deck a modern look. The railing adds to the look,
+              giving it class, comfort, and durability.
+            </p>
             <p>
               When you have a big backyard, you can do a lot with it. That
               includes building a deck to do more things with the space. This

@@ -2,7 +2,7 @@ import React from "react"
 import Head from "next/head"
 function services() {
   return (
-    <div className='services'>
+    <div className='servicesPage'>
       <Head>
         <title>Services@Homewise Construction</title>
         <meta description='Homewise Construction offers a number serccies in light residential construction. Home additions, decks, proches, bathroom renovations, kitchen remodeling, a number of other services are offered by Homewise Construction.' />

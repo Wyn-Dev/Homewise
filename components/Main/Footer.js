@@ -5,6 +5,8 @@ function Footer() {
   return (
     <footer className='footerStyle'>
       <div>
+        <p>GET IN TOUCH:</p>
+
         <p>
           <span>Homewise Construction</span>
           <br />
@@ -15,7 +17,6 @@ function Footer() {
       </div>
 
       <div>
-        <p>FOLLOW US:</p>
         <div className='sm-icons'>
           <a
             href='https://www.facebook.com/homewiseconstruction/'
@@ -46,8 +47,11 @@ function Footer() {
         </div>
       </div>
       <div>
-        <p>GET IN TOUCH:</p>
-        <a href='tel:217-259-4808'>
+        <a href='mailto:info@gohomewisellc.com'>
+          email: info@gohomewisellc.com
+        </a>
+        <br />
+        <a href='tel:217-259-4808' className='telephone'>
           <tel>tel: (217) 259-4808</tel>
         </a>
       </div>

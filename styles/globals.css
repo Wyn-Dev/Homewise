@@ -18,7 +18,7 @@ body {
   background-attachment: fixed;
 }
 h1 {
-  margin: 40px;
+  padding: 40px;
 }
 a {
   color: inherit;
@@ -29,18 +29,24 @@ a {
   box-sizing: border-box;
 }
 h2 {
-  margin: 40px;
+  /* margin: 40px; */
+  padding: 40px;
 }
 h3 {
   justify-content: center;
   align-items: center;
-  font-size: 36px;
+  font-size: 20px;
 }
 
 p {
   font-family: Avenir, sans-serif;
   font-size: 14px;
   padding: 10px;
+}
+
+span {
+  font-family: Oswald;
+  font-size: 20px;
 }
 
 ul {
@@ -52,10 +58,6 @@ ul {
   list-style-type: none;
   padding-left: 0%;
 }
-span {
-  font-family: Oswald;
-  font-size: 20px;
-}
 
 li {
   font-family: Avenir, sans-serif;
@@ -63,32 +65,51 @@ li {
   align-self: center;
   align-items: center;
 }
-.ethic {
-  background-image: url("/images/accent/Accent-1.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-color: none;
-  height: 450px;
-  color: #e6dff5;
-}
-.ethic h2 {
-  color: #ffffff;
-  margin-bottom: 30px;
+
+hr {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 4px;
+  opacity: 1;
+  width: 45px;
+  justify-content: center;
+  text-align: left;
+  margin-left: 50%;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
-.ethic p {
-  padding: 40px;
+.line {
+  width: 45px;
+  height: 4px;
+  background-color: #000000;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
+/* =========================================================================================Navigation Component */
+
 .navigation {
   font-size: 20px;
   display: flex;
   justify-content: flex-end;
 }
-.justify-content-end a {
-  justify-content: flex-end;
+/* =========================================================================================Navigation Component */
+/* ===========================================================================Navigation-Previous Next Component */
+
+.prevnext {
+  font-size: 1.35rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
 }
+/* ===========================================================================Navigation-Previous Next Component */
 
 .breadcrumb {
   font-family: Oswald;
@@ -143,14 +164,14 @@ main {
 
 @media screen and (max-width: 320px) {
   .maintext h1 {
-    font-size: 24px;
+    font-size: 30px;
   }
 }
 
 .strip {
   position: relative;
   width: 100%;
-  min-height: 450px;
+  min-height: 400px;
   box-sizing: border-box;
   background-color: rgba(227, 227, 166, 0.5);
 }
@@ -159,16 +180,12 @@ main {
 p {
   text-align: center;
 }
-.strip h2 {
-  padding-top: 50px;
-  padding-bottom: 20px;
-}
-.innertext p {
+
+.strip p {
   min-width: 320px;
   justify-content: center;
   text-align: center;
 }
-
 .logo {
   height: 1em;
   margin-left: 0.5rem;
@@ -178,8 +195,11 @@ p {
   display: grid;
   flex-direction: row;
 }
-
-/* ===========================================Footer Component */
+.navlinks {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+/* =========================================================================================Footer Component */
 
 footer {
   min-height: 300px;
@@ -190,7 +210,7 @@ footer {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-content: flex-start;
+  align-content: center;
   align-items: center;
   background-color: rgba(45, 45, 48, 0.9);
   color: #e6dff5;
@@ -201,34 +221,66 @@ footer {
   margin: 50px;
 }
 
-/* ===========================================Footer Component */
+footer a:link {
+  color: white;
+  text-decoration: none;
+  cursor: auto;
+}
 
-/* ===========================================Services PAGE */
+/* ===========================================Footer Component */
+/*===================================================STRIPS */
 
 .services {
   background-color: rgba(255, 255, 255, 0.95);
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-direction: column;
-}
-.services h4 {
-  text-transform: none;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  margin-left: 20px;
-}
-.services div {
-  align-self: center;
-  margin-bottom: 5%;
-  border-bottom: 50px;
-  max-width: 500px;
 }
 
 .services ul {
   display: flex;
   margin: auto;
   flex-direction: column;
+}
+.ethic {
+  background-image: url("/images/accent/Accent-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: none;
+  height: 450px;
+  color: #e6dff5;
+}
+.ethic h2 {
+  color: #ffffff;
+  padding-top: 60px;
+}
+
+.ethic .line {
+  background-color: #ffffff;
+}
+.ethic p {
+  padding: 40px;
+}
+/*===================================================STRIPS */
+
+/* ===========================================Services PAGE */
+
+.servicesPage {
+  background-color: rgba(255, 255, 255, 0.95);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+.servicesPage div {
+  align-self: center;
+}
+.servicesPage h4 {
+  text-align: center;
+}
+
+.servicesPage p {
+  text-align: left;
+  max-width: 500px;
 }
 /* ===========================================Services PAGE */
 /* ===========================================Projects PAGE */
@@ -237,9 +289,6 @@ footer {
   background-color: rgba(255, 255, 255, 0.95);
   display: grid;
   gap: 10px;
-}
-.projects h1 {
-  padding: 20px;
 }
 .imageP {
   border: 2px solid black;
@@ -264,7 +313,6 @@ footer {
   text-align: left;
 }
 
-/* ==============================================About PAGE */
 .bio {
   display: grid;
 }
@@ -279,6 +327,11 @@ footer {
 
 .fullname {
   padding: 20px;
+  font-family: "Lulo Clean W01 One Bold";
+}
+
+.fullname h4 {
+  font-family: Oswald;
 }
 /* ==============================================About PAGE */
 /* =================================Individual Project PAGE */
@@ -339,4 +392,8 @@ footer {
 .errorPage p {
   max-width: 600px;
   font-size: 2rem;
+}
+/* =======================================================================404 Page */
+.empty {
+  margin: 10px;
 }

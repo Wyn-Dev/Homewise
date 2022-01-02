@@ -2,6 +2,8 @@ import React from "react"
 import ProjectsContainer from "../components/Containers/ProjectsContainers"
 import { Image } from "react-bootstrap"
 import Head from "next/head"
+import Link from "next/link"
+
 function lakeside() {
   return (
     <div>
@@ -35,8 +37,15 @@ function lakeside() {
         <link rel='manifest' href='/site.webmanifest' />
       </Head>
       <ProjectsContainer>
+        <div className='prevnext'>
+          <Link href='/01-project-roofed-deck'>
+            <a>Previous Project</a>
+          </Link>
+          <Link href='/03-project-side-deck-and-entrances'>
+            <a>Next Project</a>
+          </Link>
+        </div>
         <h1> \ Lakeside Deck</h1>
-
         <div className='imagesContainer'>
           <Image
             src='/images/projects/p2/P2-00.jpg'

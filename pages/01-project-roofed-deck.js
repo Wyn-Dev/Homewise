@@ -2,6 +2,8 @@ import React from "react"
 import ProjectsContainer from "../components/Containers/ProjectsContainers"
 import { Image } from "react-bootstrap"
 import Head from "next/head"
+import Link from "next/link"
+
 function roofdeck() {
   return (
     <div>
@@ -34,6 +36,14 @@ function roofdeck() {
         <link rel='manifest' href='/site.webmanifest' />
       </Head>
       <ProjectsContainer>
+        <div className='prevnext'>
+          <Link href='/projects'>
+            <a>All Projects</a>
+          </Link>
+          <Link href='/02-project-lakeside'>
+            <a>Next Project</a>
+          </Link>
+        </div>
         <h1> \ Roofed Deck</h1>
         <div className='imagesContainer'>
           <Image

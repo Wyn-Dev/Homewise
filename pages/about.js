@@ -1,7 +1,6 @@
 import React from "react"
 import { Row, Col, Container, Image } from "react-bootstrap"
 import StripsContainer from "../components/Containers/StripContainers"
-import BioContainer from "../components/Containers/BioContainer"
 import Head from "next/head"
 function About() {
   return (
@@ -78,85 +77,79 @@ function About() {
           </p>
         </div>
       </StripsContainer>
-      <div>
-        <h2>\ Our Team</h2>
-      </div>
-      <BioContainer>
-        <Container>
-          <Row>
-            <Col>
-              <Image
-                className='imageB'
-                src='/images/bio/Bio-Jim.jpg'
-                alt='Jim Pagone. Homewise Construction. Jim is a partner at Homewise Construction.'
-              />
-            </Col>
-            <Col>
-              <div className='fullname'>
-                <h3>Jim Pagone</h3>
-                <h4>Partner</h4>
-              </div>
-              <p>
-                Jim&apos;s been in the construction business since 1990 and has
-                been at it ever since. Residential and light commercial work is
-                where Jim started and took to the residential work more and
-                more. Since then, Jim&apos;s built countless home additions
-                along with many specialized projects in Effingham and
-                surrounding counties.
-              </p>
-            </Col>
-          </Row>
-        </Container>
-      </BioContainer>
-      <BioContainer>
-        <Container>
-          <Row>
-            <Col>
-              <Image
-                className='imageB'
-                src='/images/bio/Bio-Greg.jpg'
-                alt='Greg Smith. Homewise Construction. Greg is a parter at Homewise Construction.'
-              />
-            </Col>
-            <Col>
-              <div className='fullname'>
-                <h3>Greg Smith</h3>
-                <h4>Partner</h4>
-              </div>
-              <p>
-                Greg worked for 18 years at World Color Press and all the while,
-                since 1986 worked part time in construction. In 1990,
-                that&apos;s when Greg and Jim met and built a friendship that
-                lead to that partnership that is Homewise.
-              </p>
-            </Col>
-          </Row>
-        </Container>
-      </BioContainer>
-      <BioContainer>
-        <Container>
-          <Row>
-            <Col>
-              <Image
-                className='imageB'
-                src='/images/bio/Bio-Jim.jpg'
-                alt='Justin Kresin. Homewise Construction. Justin is a construction technician at Homewise Construction.'
-              />
-            </Col>
-            <Col>
-              <div className='fullname'>
-                <h3>Justin Kresin</h3>
-                <h4>Construction Tech</h4>
-              </div>
-              <p>
-                Justin has done light construction, heating and air, and small
-                residential projects over the last few years. As part of
-                Homewise, Justin is the go to guy for every job.
-              </p>
-            </Col>
-          </Row>
-        </Container>
-      </BioContainer>
+      <h2>\ Our Team</h2>
+      <Container>
+        <Row>
+          <Col>
+            <Image
+              className='imageB'
+              src='/images/bio/Bio-Jim.jpg'
+              alt='Jim Pagone. Homewise Construction. Jim is a partner at Homewise Construction.'
+            />
+          </Col>
+          <Col>
+            <div className='fullname'>
+              <h3>Jim Pagone</h3>
+              <h4>Partner</h4>
+            </div>
+            <p>
+              Jim&apos;s been in the construction business since 1990 and has
+              been at it ever since. Residential and light commercial work is
+              where Jim started and took to the residential work more and more.
+              Since then, Jim&apos;s built countless home additions along with
+              many specialized projects in Effingham and surrounding counties.
+            </p>
+          </Col>
+        </Row>
+      </Container>
+      <Container>
+        <Row>
+          <Col>
+            <Image
+              className='imageB'
+              src='/images/bio/Bio-Greg.jpg'
+              alt='Greg Smith. Homewise Construction. Greg is a parter at Homewise Construction.'
+            />
+          </Col>
+          <Col>
+            <div className='fullname'>
+              <h3>Greg Smith</h3>
+              <h4>Partner</h4>
+            </div>
+            <p>
+              Greg worked for 18 years at World Color Press and all the while,
+              since 1986 worked part time in construction. In 1990, that&apos;s
+              when Greg and Jim met and built a friendship that lead to that
+              partnership that is Homewise.
+            </p>
+          </Col>
+        </Row>
+      </Container>
+      <Container>
+        <Row>
+          <Col>
+            <Image
+              className='imageB'
+              src='/images/bio/Bio-Jim.jpg'
+              alt='Justin Kresin. Homewise Construction. Justin is a construction technician at Homewise Construction.'
+            />
+          </Col>
+          <Col>
+            <div className='fullname'>
+              <h3>Justin Kresin</h3>
+              <h4>Construction Tech</h4>
+            </div>
+            <p>
+              Justin has done light construction, heating and air, and small
+              residential projects over the last few years. As part of Homewise,
+              Justin is the go to guy for every job.
+            </p>
+          </Col>
+        </Row>
+        <Row>
+          <div className='empty'></div>
+        </Row>
+      </Container>
     </div>
   )
 }

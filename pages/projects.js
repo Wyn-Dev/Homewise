@@ -83,11 +83,11 @@ function projects() {
         </Row>
         <Row>
           <Col>
-            <Link href='/04-project-fencing'>
+            <Link href='/04-project-kitchen-remodel'>
               <a>
                 <Image
                   className='imageP'
-                  src='/images/projects/P4-02.jpg'
+                  src='/images/projects/P4-06.jpg'
                   alt='Homewise Construction. This image shows the completed fecning project.'
                   fluid
                 />
@@ -107,11 +107,11 @@ function projects() {
             </Link>
           </Col>
           <Col>
-            <Link href='/06-project-deckblend'>
+            <Link href='/06-project-bathroom-remodel'>
               <a>
                 <Image
                   className='imageP'
-                  src='/images/projects/P6-04.jpg'
+                  src='/images/projects/P6-07.jpg'
                   alt='Homewise Construction. This image shows the completed backyard deck blend project.'
                   fluid
                 />
@@ -132,7 +132,18 @@ function projects() {
               </a>
             </Link>
           </Col>
-          <Col></Col>
+          <Col>
+            <Link href='/07-project-opendeck'>
+              <a>
+                <Image
+                  className='imageP'
+                  src='/images/projects/P8-06.jpg'
+                  alt='Homewise Construction. This image shows the completed open deck project.'
+                  fluid
+                />
+              </a>
+            </Link>
+          </Col>
           <Col>
             <p>Check back every month, we have new projects every month.</p>
           </Col>

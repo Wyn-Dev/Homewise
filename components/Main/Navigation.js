@@ -11,8 +11,8 @@ function Navigation() {
             <Image
               src='/images/logo/logo-homewise.png'
               alt='Homewise'
-              height={88.6}
-              width={170}
+              height={65}
+              width={124}
             />
           </Navbar.Brand>
 
@@ -23,10 +23,19 @@ function Navigation() {
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='justify-content-end'>
               <Nav className='justify-content-end'>
-                <Nav.Link href='/'>Home</Nav.Link>
-                <Nav.Link href='/about'>About</Nav.Link>
-                <Nav.Link href='/services'>Services</Nav.Link>
-                <NavDropdown title='Projects' id='basic-nav-dropdown'>
+                <Nav.Link className='navlinks' href='/'>
+                  Home
+                </Nav.Link>
+                <Nav.Link className='navlinks' href='/about'>
+                  About
+                </Nav.Link>
+                <Nav.Link className='navlinks' href='/services'>
+                  Services
+                </Nav.Link>
+                <NavDropdown
+                  className='navlinks'
+                  title='Projects'
+                  id='basic-nav-dropdown'>
                   <NavDropdown.Item href='/projects'>
                     - All Projects -
                   </NavDropdown.Item>
@@ -39,17 +48,20 @@ function Navigation() {
                   <NavDropdown.Item href='/03-project-side-deck-and-entrances'>
                     Side Deck and Entrances
                   </NavDropdown.Item>
-                  <NavDropdown.Item href='/04-project-fencing'>
-                    Fencing
+                  <NavDropdown.Item href='/04-project-kitchen-remodel'>
+                    Kitchen Remodel
                   </NavDropdown.Item>
                   <NavDropdown.Item href='/05-project-houseaddition'>
                     House Addition
                   </NavDropdown.Item>
-                  <NavDropdown.Item href='/06-project-deckblend'>
-                    Deck Blend
+                  <NavDropdown.Item href='/06-project-bathroom-remodel'>
+                    Bathroom Remodel
                   </NavDropdown.Item>
                   <NavDropdown.Item href='/07-project-opendeck'>
                     Open Flat Deck
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href='/08-project-room-remodel'>
+                    Room Remodal
                   </NavDropdown.Item>
                 </NavDropdown>
               </Nav>

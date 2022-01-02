@@ -2,7 +2,9 @@ import React from "react"
 import ProjectsContainer from "../components/Containers/ProjectsContainers"
 import { Image } from "react-bootstrap"
 import Head from "next/head"
-function onestep() {
+import Link from "next/link"
+
+function sidedeck() {
   return (
     <div>
       <Head>
@@ -35,6 +37,14 @@ function onestep() {
         <link rel='manifest' href='/site.webmanifest' />
       </Head>
       <ProjectsContainer>
+        <div className='prevnext'>
+          <Link href='/02-project-lakeside'>
+            <a>Previous Project</a>
+          </Link>
+          <Link href='/04-project-kitchen-remodel'>
+            <a>Next Project</a>
+          </Link>
+        </div>
         <h1> \ Side Deck and Entrances</h1>
         <div className='imagesContainer'>
           <Image
@@ -115,4 +125,4 @@ function onestep() {
   )
 }
 
-export default onestep
+export default sidedeck

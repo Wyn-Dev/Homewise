@@ -52,30 +52,28 @@ function Home() {
         </div>
         <StripContainers>
           <h2>Proudly serving Effingham County</h2>
-          <div className='innertext'>
-            <p>
-              We like to make homes look their best.
-              <br /> Taking care of all your home maintenance needs is all in a
-              day&apos;s work for us. <br />
-              Take a look at the kinds of projects we work on.
-            </p>
-          </div>
+          <div className='line'></div>
+          <p>
+            We like to make homes look their best.
+            <br /> Taking care of all your home maintenance needs is all in a
+            day&apos;s work for us. <br />
+            Take a look at the kinds of projects we work on.
+          </p>
         </StripContainers>
         <StripContainers>
           <div className='services'>
             <h2>Our Services</h2>
-            <div className='innertext'>
-              <p>
-                Some of the things we like to do... <br /> Home maintenance,
-                decking, siding, flooring, door installation, sheet rock
-                installation and repair,
-                <br />
-                entry and exterior door replacement, roofing construction and
-                repair <br /> ...basically any issue that your home may have, we
-                can help with. <br /> Here&apos;s a list of what you can call on
-                us to do:
-              </p>
-            </div>
+            <div className='line'></div>
+            <p>
+              Some of the things we like to do... <br /> Home maintenance,
+              decking, siding, flooring, door installation, sheet rock
+              installation and repair,
+              <br />
+              entry and exterior door replacement, roofing construction and
+              repair <br /> ...basically any issue that your home may have, we
+              can help with. <br /> Here&apos;s a list of what you can call on
+              us to do:
+            </p>
 
             <list>
               <ul>
@@ -105,23 +103,24 @@ function Home() {
         <StripContainers>
           <div className='ethic'>
             <h2>Our Ethic</h2>
-            <div className='innertext'>
-              <p>
-                Quality is never an accident; <br /> It is always the result of
-                high intention, sincere effort, intelligent direction and
-                skillful execution; <br /> It represents the wise choice of many
-                alternatives.
-                <br />
-                -William A Foster
-              </p>
-            </div>
+            <div className='line'></div>
+            <p>
+              Quality is never an accident; <br /> It is always the result of
+              high intention, sincere effort, intelligent direction and skillful
+              execution; <br /> It represents the wise choice of many
+              alternatives.
+              <br />
+              -William A Foster
+            </p>
           </div>
         </StripContainers>
 
         <StripContainers>
           <div>
             <h2>Places We Serve</h2>
-            <div className='innertext'>
+            <div className='line'></div>
+
+            <div>
               <p>
                 Based out of Effingham County, we travel to the following areas:
               </p>
