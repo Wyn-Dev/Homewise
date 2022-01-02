@@ -16,6 +16,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
+  object-fit: contain;
 }
 h1 {
   padding: 40px;
@@ -249,6 +250,7 @@ footer a:link {
   background-color: none;
   height: 450px;
   color: #e6dff5;
+  object-fit: contain;
 }
 .ethic h2 {
   color: #ffffff;
