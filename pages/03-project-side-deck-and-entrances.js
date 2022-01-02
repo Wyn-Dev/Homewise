@@ -3,10 +3,11 @@ import ProjectsContainer from "../components/Containers/ProjectsContainers"
 import { Image } from "react-bootstrap"
 import Head from "next/head"
 import Link from "next/link"
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa"
 
 function sidedeck() {
   return (
-    <div>
+    <div className='projects'>
       <Head>
         <title>Side Deck from Homewise Construction</title>
         <meta
@@ -37,10 +38,14 @@ function sidedeck() {
       <ProjectsContainer>
         <div className='prevnext'>
           <Link href='/02-project-lakeside'>
-            <a>Previous Project</a>
+            <a>
+              <FaArrowLeft /> Prev
+            </a>
           </Link>
           <Link href='/04-project-kitchen-remodel'>
-            <a>Next Project</a>
+            <a>
+              Next <FaArrowRight />
+            </a>
           </Link>
         </div>
         <h1> \ Side Deck and Entrances</h1>

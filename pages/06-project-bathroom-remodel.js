@@ -3,10 +3,11 @@ import ProjectsContainer from "../components/Containers/ProjectsContainers"
 import { Image } from "react-bootstrap"
 import Head from "next/head"
 import Link from "next/link"
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa"
 
 function deckblend() {
   return (
-    <div>
+    <div className='projectsPage'>
       <Head>
         <title> Bathroom Remodel from Homewise Construction</title>
         <meta
@@ -37,10 +38,14 @@ function deckblend() {
       <ProjectsContainer>
         <div className='prevnext'>
           <Link href='/05-project-houseaddition'>
-            <a>Previous-Project</a>
+            <a>
+              <FaArrowLeft /> Prev
+            </a>
           </Link>
           <Link href='/07-project-opendeck'>
-            <a>Next Project</a>
+            <a>
+              Next <FaArrowRight />
+            </a>
           </Link>
         </div>
         <h1> \ Bathroom Remodel</h1>

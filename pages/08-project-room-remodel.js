@@ -3,10 +3,10 @@ import ProjectsContainer from "../components/Containers/ProjectsContainers"
 import { Image } from "react-bootstrap"
 import Head from "next/head"
 import Link from "next/link"
-
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa"
 function opendeck() {
   return (
-    <div>
+    <div className='projectsPage'>
       <Head>
         <title>Room Remodel from Homewise Construction</title>
         <meta
@@ -37,10 +37,14 @@ function opendeck() {
       <ProjectsContainer>
         <div className='prevnext'>
           <Link href='/07-project-opendeck'>
-            <a>Previous-Project</a>
+            <a>
+              <FaArrowLeft /> Prev
+            </a>
           </Link>
           <Link href='/projects'>
-            <a>Back to All Projects</a>
+            <a>
+              All <FaArrowRight />
+            </a>
           </Link>
         </div>
         <h1> \ Room Remodel </h1>

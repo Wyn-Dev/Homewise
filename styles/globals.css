@@ -89,12 +89,11 @@ hr {
   position: fixed;
   height: auto;
   width: 100%;
-  z-index: 1;
+  z-index: 6;
 }
 .navigation {
   font-size: 20px;
   display: flex;
-  justify-content: flex-end;
 }
 /* =========================================================================================Navigation Component */
 /* ===========================================================================Navigation-Previous Next Component */
@@ -149,13 +148,18 @@ main {
 }
 
 .maintext {
-  height: 800px;
+  margin-top: 130px;
+  height: 600px;
+  display: flex;
+  align-items: center;
 }
 .maintext h1 {
   color: #ffffff;
   font-family: "Lulo Clean W01 One Bold";
   text-shadow: 7px 7px 7px black;
-  font-size: 4vw;
+  font-size: 8vh;
+  text-align: left;
+  margin-left: 10%;
 }
 
 @media screen and (max-width: 320px) {
@@ -170,10 +174,6 @@ main {
   min-height: 400px;
   box-sizing: border-box;
   background-color: rgba(227, 227, 166, 0.5);
-}
-
-.strip h2,
-p {
   text-align: center;
 }
 
@@ -272,6 +272,7 @@ footer a:link {
   justify-content: center;
   align-content: center;
   flex-direction: column;
+  padding-top: 130px;
 }
 .servicesPage div {
   align-self: center;
@@ -289,6 +290,7 @@ footer a:link {
 
 .projects {
   background-color: rgba(255, 255, 255, 0.95);
+  padding-top: 130px;
   display: grid;
   gap: 10px;
 }
@@ -302,6 +304,7 @@ footer a:link {
 
 .about {
   background-color: rgba(255, 255, 255, 0.95);
+  padding-top: 130px;
 }
 .aboutInner {
   display: flex;
@@ -337,6 +340,10 @@ footer a:link {
 }
 /* ==============================================About PAGE */
 /* =================================Individual Project PAGE */
+
+.projectsPage {
+  padding-top: 130px;
+}
 
 .projectContainer {
   display: grid;

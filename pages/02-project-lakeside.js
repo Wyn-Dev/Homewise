@@ -3,10 +3,11 @@ import ProjectsContainer from "../components/Containers/ProjectsContainers"
 import { Image } from "react-bootstrap"
 import Head from "next/head"
 import Link from "next/link"
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa"
 
 function lakeside() {
   return (
-    <div>
+    <div className='projects'>
       <Head>
         <title>Lakeside Deck Construction from Homewise Construction</title>
         <meta
@@ -37,10 +38,14 @@ function lakeside() {
       <ProjectsContainer>
         <div className='prevnext'>
           <Link href='/01-project-roofed-deck'>
-            <a>Previous Project</a>
+            <a>
+              <FaArrowLeft /> Prev
+            </a>
           </Link>
           <Link href='/03-project-side-deck-and-entrances'>
-            <a>Next Project</a>
+            <a>
+              Next <FaArrowRight />
+            </a>
           </Link>
         </div>
         <h1> \ Lakeside Deck</h1>

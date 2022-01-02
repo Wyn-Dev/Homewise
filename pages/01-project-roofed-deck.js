@@ -3,10 +3,11 @@ import ProjectsContainer from "../components/Containers/ProjectsContainers"
 import { Image } from "react-bootstrap"
 import Head from "next/head"
 import Link from "next/link"
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa"
 
 function roofdeck() {
   return (
-    <div>
+    <div className='projectsPage'>
       <Head>
         <title>Roofed Deck Project from Homewise Construction</title>
         <meta
@@ -37,10 +38,14 @@ function roofdeck() {
       <ProjectsContainer>
         <div className='prevnext'>
           <Link href='/projects'>
-            <a>All Projects</a>
+            <a>
+              <FaArrowLeft /> All
+            </a>
           </Link>
           <Link href='/02-project-lakeside'>
-            <a>Next Project</a>
+            <a>
+              Next <FaArrowRight />
+            </a>
           </Link>
         </div>
         <h1> \ Roofed Deck</h1>

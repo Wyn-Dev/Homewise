@@ -3,10 +3,11 @@ import ProjectsContainer from "../components/Containers/ProjectsContainers"
 import { Image } from "react-bootstrap"
 import Head from "next/head"
 import Link from "next/link"
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa"
 
 function kitchenRemodel() {
   return (
-    <div>
+    <div className='projectsPage'>
       <Head>
         <title>Kitchen remodel from Homewise Construction</title>
         <meta
@@ -37,10 +38,14 @@ function kitchenRemodel() {
       <ProjectsContainer>
         <div className='prevnext'>
           <Link href='/03-project-side-deck-and-entrances'>
-            <a>Previous Project</a>
+            <a>
+              <FaArrowLeft /> Prev
+            </a>
           </Link>
           <Link href='/05-project-houseaddition'>
-            <a>Next Project</a>
+            <a>
+              Next <FaArrowRight />
+            </a>
           </Link>
         </div>
         <h1> \ Kitchen Remodel</h1>
