@@ -92,8 +92,10 @@ hr {
   z-index: 6;
 }
 .navigation {
+  display: flex;
   font-size: 20px;
   display: flex;
+  justify-content: space-around;
 }
 /* =========================================================================================Navigation Component */
 /* ===========================================================================Navigation-Previous Next Component */
@@ -162,9 +164,9 @@ main {
   margin-left: 10%;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 650px) {
   .maintext h1 {
-    font-size: 30px;
+    font-size: 8vw;
   }
 }
 
@@ -294,8 +296,14 @@ footer a:link {
   display: grid;
   gap: 10px;
 }
+
+.projects p {
+  justify-content: center;
+  text-align: center;
+}
+
 .imageP {
-  border: 2px solid black;
+  border: 1px solid black;
   margin: 5%;
 }
 
