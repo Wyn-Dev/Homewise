@@ -16,8 +16,9 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  object-fit: contain;
+  /* object-fit: contain; */
   width: 100%;
+  max-height: fit-content;
 }
 h1 {
   padding: 40px;
