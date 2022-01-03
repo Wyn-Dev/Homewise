@@ -17,6 +17,7 @@ body {
   background-position: center;
   background-attachment: fixed;
   object-fit: contain;
+  width: 100%;
 }
 h1 {
   padding: 40px;
@@ -243,7 +244,7 @@ footer a:link {
 }
 .ethic {
   background-image: url("/images/accent/Accent-1.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
