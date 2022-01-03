@@ -248,6 +248,7 @@ footer a:link {
   background-position: center;
   background-attachment: fixed;
   background-color: none;
+  width: 100%;
   height: 450px;
   color: #e6dff5;
   object-fit: contain;
