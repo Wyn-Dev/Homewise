@@ -243,7 +243,7 @@ footer a:link {
 }
 .ethic {
   background-image: url("/images/accent/Accent-1.jpg");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
